@@ -1,0 +1,1164 @@
+[
+  {
+    "equipmentName": "Mahindra 575 DI",
+    "equipmentType": "Tractor",
+    "image": "https://example.com/mahindra-575.jpg",
+    "pricePerDay": 1500,
+    "available": true,
+    "availableDates": "2026-01-20 to 2026-02-15",
+    "deposit": 5000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Rice",
+      "Wheat",
+      "Cotton",
+      "Sugarcane"
+    ],
+    "suitableProcesses": [
+      "Plowing",
+      "Tilling",
+      "Hauling",
+      "Transport"
+    ],
+    "specs": {
+      "hp": 50,
+      "year": 2021,
+      "hours": 1200
+    },
+    "features": [
+      "Power Steering",
+      "Oil Immersed Brakes",
+      "Multi-Speed PTO"
+    ],
+    "lastServiceDate": "2025-12-15",
+    "nextServiceDate": "2026-03-15",
+    "description": "Reliable mid-range tractor perfect for general farm operations. Well-maintained with regular servicing.",
+    "condition": "Excellent",
+    "distance": 5
+  },
+  {
+    "equipmentName": "John Deere 5310",
+    "equipmentType": "Tractor",
+    "image": "https://example.com/john-deere-5310.jpg",
+    "pricePerDay": 2200,
+    "available": true,
+    "availableDates": "2026-01-18 to 2026-03-01",
+    "deposit": 8000,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Wheat",
+      "Cotton",
+      "Corn",
+      "Soybeans"
+    ],
+    "suitableProcesses": [
+      "Plowing",
+      "Heavy Duty Work",
+      "Land Preparation"
+    ],
+    "specs": {
+      "hp": 75,
+      "year": 2019,
+      "hours": 2500
+    },
+    "features": [
+      "4WD",
+      "Air Conditioning",
+      "Hydraulic Lift",
+      "Digital Display"
+    ],
+    "lastServiceDate": "2026-01-05",
+    "nextServiceDate": "2026-04-05",
+    "description": "High-performance tractor ideal for heavy-duty farming tasks. Features modern comfort and efficiency.",
+    "condition": "Good",
+    "distance": 12
+  },
+  {
+    "equipmentName": "Swaraj 744 FE",
+    "equipmentType": "Tractor",
+    "image": "https://example.com/swaraj-744.jpg",
+    "pricePerDay": 1200,
+    "available": false,
+    "availableDates": "2026-02-01 to 2026-02-28",
+    "deposit": 4000,
+    "hasInsurance": false,
+    "includesOperator": true,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Rice",
+      "Vegetables",
+      "Pulses"
+    ],
+    "suitableProcesses": [
+      "Plowing",
+      "Rotavation",
+      "Leveling"
+    ],
+    "specs": {
+      "hp": 45,
+      "year": 2018,
+      "hours": 3200
+    },
+    "features": [
+      "Fuel Efficient",
+      "Easy Maintenance",
+      "Strong Build"
+    ],
+    "lastServiceDate": "2025-11-20",
+    "nextServiceDate": "2026-02-20",
+    "description": "Economical and fuel-efficient tractor suitable for small to medium farms. Proven reliability.",
+    "condition": "Fair",
+    "distance": 8
+  },
+  {
+    "equipmentName": "Fieldking Seed Drill 9-Tyne",
+    "equipmentType": "Seed Drill",
+    "image": "https://example.com/fieldking-seeddrill.jpg",
+    "pricePerDay": 800,
+    "available": true,
+    "availableDates": "2026-01-22 to 2026-02-10",
+    "deposit": 2500,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Wheat",
+      "Barley",
+      "Mustard",
+      "Pulses"
+    ],
+    "suitableProcesses": [
+      "Sowing",
+      "Seed Planting",
+      "Line Sowing"
+    ],
+    "specs": {
+      "hp": 35,
+      "year": 2022,
+      "hours": 450
+    },
+    "features": [
+      "Uniform Seed Distribution",
+      "Adjustable Row Spacing",
+      "Fertilizer Box"
+    ],
+    "lastServiceDate": "2025-12-28",
+    "nextServiceDate": "2026-06-28",
+    "description": "Modern seed drill with precise seed placement. Ensures uniform germination and optimal plant population.",
+    "condition": "Excellent",
+    "distance": 3
+  },
+  {
+    "equipmentName": "Mahindra Multi Crop Seed Drill",
+    "equipmentType": "Seed Drill",
+    "image": "https://example.com/mahindra-seeddrill.jpg",
+    "pricePerDay": 650,
+    "available": true,
+    "availableDates": "2026-01-25 to 2026-03-15",
+    "deposit": 2000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Wheat",
+      "Soybeans",
+      "Corn",
+      "Chickpea"
+    ],
+    "suitableProcesses": [
+      "Sowing",
+      "Drilling",
+      "Broadcasting"
+    ],
+    "specs": {
+      "hp": 40,
+      "year": 2020,
+      "hours": 980
+    },
+    "features": [
+      "Multi-Crop Capability",
+      "Depth Control",
+      "Seed Metering System"
+    ],
+    "lastServiceDate": "2025-10-10",
+    "nextServiceDate": "2026-04-10",
+    "description": "Versatile seed drill suitable for multiple crop types. Features easy depth and spacing adjustment.",
+    "condition": "Good",
+    "distance": 15
+  },
+  {
+    "equipmentName": "Sonalika 11-Tyne Seed Drill",
+    "equipmentType": "Seed Drill",
+    "image": "https://example.com/sonalika-seeddrill.jpg",
+    "pricePerDay": 550,
+    "available": true,
+    "availableDates": "2026-02-05 to 2026-02-25",
+    "deposit": 1800,
+    "hasInsurance": false,
+    "includesOperator": false,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Wheat",
+      "Gram",
+      "Peas"
+    ],
+    "suitableProcesses": [
+      "Sowing",
+      "Line Sowing"
+    ],
+    "specs": {
+      "hp": 30,
+      "year": 2019,
+      "hours": 1450
+    },
+    "features": [
+      "Robust Construction",
+      "Easy Operation",
+      "Low Maintenance"
+    ],
+    "lastServiceDate": "2025-09-15",
+    "nextServiceDate": "2026-03-15",
+    "description": "Reliable seed drill with proven performance. Ideal for wheat and pulses cultivation.",
+    "condition": "Fair",
+    "distance": 20
+  },
+  {
+    "equipmentName": "Lemken Zirkon Rotavator",
+    "equipmentType": "Rotavator",
+    "image": "https://example.com/lemken-rotavator.jpg",
+    "pricePerDay": 1100,
+    "available": true,
+    "availableDates": "2026-01-19 to 2026-02-20",
+    "deposit": 3500,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Rice",
+      "Wheat",
+      "Vegetables",
+      "Cotton"
+    ],
+    "suitableProcesses": [
+      "Soil Preparation",
+      "Tilling",
+      "Seedbed Preparation"
+    ],
+    "specs": {
+      "hp": 45,
+      "year": 2021,
+      "hours": 850
+    },
+    "features": [
+      "Heavy Duty Blades",
+      "Adjustable Working Depth",
+      "Side Drive System"
+    ],
+    "lastServiceDate": "2026-01-10",
+    "nextServiceDate": "2026-07-10",
+    "description": "Professional-grade rotavator for perfect seedbed preparation. Creates fine tilth efficiently.",
+    "condition": "Excellent",
+    "distance": 6
+  },
+  {
+    "equipmentName": "Fieldking Super Seeder Rotavator",
+    "equipmentType": "Rotavator",
+    "image": "https://example.com/fieldking-rotavator.jpg",
+    "pricePerDay": 900,
+    "available": false,
+    "availableDates": "2026-02-10 to 2026-03-10",
+    "deposit": 3000,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Wheat",
+      "Rice",
+      "Sugarcane"
+    ],
+    "suitableProcesses": [
+      "Rotavation",
+      "Mulching",
+      "Land Leveling"
+    ],
+    "specs": {
+      "hp": 50,
+      "year": 2020,
+      "hours": 1650
+    },
+    "features": [
+      "Stubble Management",
+      "Depth Control",
+      "Reverse Rotation"
+    ],
+    "lastServiceDate": "2025-11-25",
+    "nextServiceDate": "2026-05-25",
+    "description": "Multi-purpose rotavator with stubble management capability. Suitable for zero-till farming.",
+    "condition": "Good",
+    "distance": 10
+  },
+  {
+    "equipmentName": "Shaktiman Rotavator 5.5ft",
+    "equipmentType": "Rotavator",
+    "image": "https://example.com/shaktiman-rotavator.jpg",
+    "pricePerDay": 750,
+    "available": true,
+    "availableDates": "2026-01-23 to 2026-02-28",
+    "deposit": 2500,
+    "hasInsurance": false,
+    "includesOperator": true,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Rice",
+      "Vegetables",
+      "Corn"
+    ],
+    "suitableProcesses": [
+      "Tilling",
+      "Soil Mixing",
+      "Weed Control"
+    ],
+    "specs": {
+      "hp": 40,
+      "year": 2018,
+      "hours": 2100
+    },
+    "features": [
+      "Compact Design",
+      "Easy Maneuverability",
+      "L-Type Blades"
+    ],
+    "lastServiceDate": "2025-10-05",
+    "nextServiceDate": "2026-04-05",
+    "description": "Compact rotavator perfect for small to medium fields. Provides excellent soil pulverization.",
+    "condition": "Fair",
+    "distance": 18
+  },
+  {
+    "equipmentName": "New Holland TC5.90",
+    "equipmentType": "Combine Harvester",
+    "image": "https://example.com/newholland-combine.jpg",
+    "pricePerDay": 5500,
+    "available": true,
+    "availableDates": "2026-03-01 to 2026-04-30",
+    "deposit": 25000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Wheat",
+      "Rice",
+      "Soybeans",
+      "Corn"
+    ],
+    "suitableProcesses": [
+      "Harvesting",
+      "Threshing",
+      "Cleaning"
+    ],
+    "specs": {
+      "hp": 130,
+      "year": 2020,
+      "hours": 1800
+    },
+    "features": [
+      "GPS Guidance",
+      "Grain Tank Monitor",
+      "Auto Header Height Control",
+      "Air Conditioning"
+    ],
+    "lastServiceDate": "2025-12-20",
+    "nextServiceDate": "2026-06-20",
+    "description": "High-capacity combine harvester with advanced features. Minimizes grain loss and maximizes efficiency.",
+    "condition": "Excellent",
+    "distance": 25
+  },
+  {
+    "equipmentName": "John Deere W210",
+    "equipmentType": "Combine Harvester",
+    "image": "https://example.com/johndeere-combine.jpg",
+    "pricePerDay": 6000,
+    "available": true,
+    "availableDates": "2026-03-15 to 2026-05-15",
+    "deposit": 30000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Wheat",
+      "Rice",
+      "Barley"
+    ],
+    "suitableProcesses": [
+      "Harvesting",
+      "Threshing",
+      "Grain Collection"
+    ],
+    "specs": {
+      "hp": 145,
+      "year": 2019,
+      "hours": 2200
+    },
+    "features": [
+      "Hydrostatic Drive",
+      "Large Grain Tank",
+      "LED Lighting",
+      "Yield Monitor"
+    ],
+    "lastServiceDate": "2026-01-08",
+    "nextServiceDate": "2026-07-08",
+    "description": "Premium combine harvester for large-scale operations. Superior performance in all crop conditions.",
+    "condition": "Excellent",
+    "distance": 35
+  },
+  {
+    "equipmentName": "Preet 987 Combine",
+    "equipmentType": "Combine Harvester",
+    "image": "https://example.com/preet-combine.jpg",
+    "pricePerDay": 4500,
+    "available": false,
+    "availableDates": "2026-04-01 to 2026-05-30",
+    "deposit": 20000,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Wheat",
+      "Rice",
+      "Mustard"
+    ],
+    "suitableProcesses": [
+      "Harvesting",
+      "Threshing"
+    ],
+    "specs": {
+      "hp": 110,
+      "year": 2017,
+      "hours": 3500
+    },
+    "features": [
+      "Dual Clutch",
+      "Adjustable Concave",
+      "Straw Chopper"
+    ],
+    "lastServiceDate": "2025-11-30",
+    "nextServiceDate": "2026-05-30",
+    "description": "Economical combine harvester suitable for medium-sized farms. Proven reliability in Indian conditions.",
+    "condition": "Good",
+    "distance": 28
+  },
+  {
+    "equipmentName": "Mahindra 9-Tyne Cultivator",
+    "equipmentType": "Cultivator",
+    "image": "https://example.com/mahindra-cultivator.jpg",
+    "pricePerDay": 600,
+    "available": true,
+    "availableDates": "2026-01-20 to 2026-02-15",
+    "deposit": 2000,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Wheat",
+      "Cotton",
+      "Soybeans",
+      "Pulses"
+    ],
+    "suitableProcesses": [
+      "Primary Tillage",
+      "Soil Loosening",
+      "Weed Control"
+    ],
+    "specs": {
+      "hp": 35,
+      "year": 2021,
+      "hours": 680
+    },
+    "features": [
+      "Spring Loaded Tines",
+      "Depth Adjustment",
+      "Rigid Frame"
+    ],
+    "lastServiceDate": "2025-12-18",
+    "nextServiceDate": "2026-06-18",
+    "description": "Efficient cultivator for breaking hard soil and weed control. Spring-loaded tines protect against damage.",
+    "condition": "Excellent",
+    "distance": 4
+  },
+  {
+    "equipmentName": "Fieldking Duck Foot Cultivator",
+    "equipmentType": "Cultivator",
+    "image": "https://example.com/fieldking-cultivator.jpg",
+    "pricePerDay": 550,
+    "available": true,
+    "availableDates": "2026-01-28 to 2026-03-10",
+    "deposit": 1800,
+    "hasInsurance": false,
+    "includesOperator": true,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Rice",
+      "Wheat",
+      "Corn",
+      "Vegetables"
+    ],
+    "suitableProcesses": [
+      "Secondary Tillage",
+      "Soil Aeration",
+      "Stubble Mixing"
+    ],
+    "specs": {
+      "hp": 40,
+      "year": 2019,
+      "hours": 1320
+    },
+    "features": [
+      "Duck Foot Shovels",
+      "Adjustable Width",
+      "Heavy Duty Construction"
+    ],
+    "lastServiceDate": "2025-10-22",
+    "nextServiceDate": "2026-04-22",
+    "description": "Versatile cultivator with duck foot shovels for effective soil preparation. Minimal soil disturbance.",
+    "condition": "Good",
+    "distance": 14
+  },
+  {
+    "equipmentName": "Sonalika 11-Tyne Spring Cultivator",
+    "equipmentType": "Cultivator",
+    "image": "https://example.com/sonalika-cultivator.jpg",
+    "pricePerDay": 480,
+    "available": true,
+    "availableDates": "2026-02-01 to 2026-02-20",
+    "deposit": 1500,
+    "hasInsurance": false,
+    "includesOperator": false,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Wheat",
+      "Mustard",
+      "Chickpea"
+    ],
+    "suitableProcesses": [
+      "Tillage",
+      "Weeding",
+      "Soil Preparation"
+    ],
+    "specs": {
+      "hp": 30,
+      "year": 2018,
+      "hours": 1850
+    },
+    "features": [
+      "Spring Loaded Protection",
+      "Chisel Points",
+      "Simple Design"
+    ],
+    "lastServiceDate": "2025-09-10",
+    "nextServiceDate": "2026-03-10",
+    "description": "Basic but reliable cultivator for general farm use. Cost-effective solution for soil preparation.",
+    "condition": "Fair",
+    "distance": 22
+  },
+  {
+    "equipmentName": "Kisan Kraft Multicrop Thresher",
+    "equipmentType": "Thresher",
+    "image": "https://example.com/kisankraft-thresher.jpg",
+    "pricePerDay": 1200,
+    "available": true,
+    "availableDates": "2026-03-10 to 2026-04-20",
+    "deposit": 4000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Wheat",
+      "Rice",
+      "Sorghum",
+      "Pulses"
+    ],
+    "suitableProcesses": [
+      "Threshing",
+      "Grain Separation",
+      "Cleaning"
+    ],
+    "specs": {
+      "hp": 15,
+      "year": 2022,
+      "hours": 320
+    },
+    "features": [
+      "Multi-Crop Drum",
+      "High Throughput",
+      "Low Grain Damage",
+      "Easy Drum Change"
+    ],
+    "lastServiceDate": "2026-01-12",
+    "nextServiceDate": "2026-07-12",
+    "description": "Efficient multicrop thresher with minimal grain damage. Suitable for various crops with drum change.",
+    "condition": "Excellent",
+    "distance": 7
+  },
+  {
+    "equipmentName": "Pujan Axial Flow Paddy Thresher",
+    "equipmentType": "Thresher",
+    "image": "https://example.com/pujan-thresher.jpg",
+    "pricePerDay": 1000,
+    "available": true,
+    "availableDates": "2026-03-20 to 2026-05-01",
+    "deposit": 3500,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Rice",
+      "Wheat"
+    ],
+    "suitableProcesses": [
+      "Threshing",
+      "Separation"
+    ],
+    "specs": {
+      "hp": 12,
+      "year": 2020,
+      "hours": 950
+    },
+    "features": [
+      "Axial Flow Design",
+      "High Efficiency",
+      "Low Power Consumption"
+    ],
+    "lastServiceDate": "2025-11-15",
+    "nextServiceDate": "2026-05-15",
+    "description": "Specialized paddy thresher with axial flow technology. Excellent for rice threshing with clean output.",
+    "condition": "Good",
+    "distance": 11
+  },
+  {
+    "equipmentName": "Sakthi Wheat Thresher",
+    "equipmentType": "Thresher",
+    "image": "https://example.com/sakthi-thresher.jpg",
+    "pricePerDay": 850,
+    "available": false,
+    "availableDates": "2026-04-01 to 2026-04-30",
+    "deposit": 3000,
+    "hasInsurance": false,
+    "includesOperator": true,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Wheat",
+      "Barley",
+      "Oats"
+    ],
+    "suitableProcesses": [
+      "Threshing",
+      "Winnowing"
+    ],
+    "specs": {
+      "hp": 10,
+      "year": 2018,
+      "hours": 1680
+    },
+    "features": [
+      "Compact Design",
+      "Easy Transport",
+      "Simple Maintenance"
+    ],
+    "lastServiceDate": "2025-10-01",
+    "nextServiceDate": "2026-04-01",
+    "description": "Traditional thresher ideal for wheat and similar crops. Economical option for small-scale farmers.",
+    "condition": "Fair",
+    "distance": 16
+  },
+  {
+    "equipmentName": "Kubota SPV-8S Rice Transplanter",
+    "equipmentType": "Rice Transplanter",
+    "image": "https://example.com/kubota-transplanter.jpg",
+    "pricePerDay": 2500,
+    "available": true,
+    "availableDates": "2026-06-01 to 2026-07-30",
+    "deposit": 10000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Rice"
+    ],
+    "suitableProcesses": [
+      "Transplanting",
+      "Rice Planting"
+    ],
+    "specs": {
+      "hp": 20,
+      "year": 2021,
+      "hours": 580
+    },
+    "features": [
+      "8-Row Planting",
+      "Automatic Leveling",
+      "Power Steering",
+      "Mat Type Seedling"
+    ],
+    "lastServiceDate": "2025-12-30",
+    "nextServiceDate": "2026-06-30",
+    "description": "Premium rice transplanter with precise planting. Reduces labor cost and ensures uniform plant spacing.",
+    "condition": "Excellent",
+    "distance": 9
+  },
+  {
+    "equipmentName": "VST Yanji 6-Row Transplanter",
+    "equipmentType": "Rice Transplanter",
+    "image": "https://example.com/vst-transplanter.jpg",
+    "pricePerDay": 2000,
+    "available": true,
+    "availableDates": "2026-06-10 to 2026-08-10",
+    "deposit": 8000,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Rice"
+    ],
+    "suitableProcesses": [
+      "Transplanting",
+      "Paddy Planting"
+    ],
+    "specs": {
+      "hp": 18,
+      "year": 2020,
+      "hours": 920
+    },
+    "features": [
+      "6-Row Capacity",
+      "Depth Control",
+      "Float Mechanism",
+      "Compact Size"
+    ],
+    "lastServiceDate": "2025-11-20",
+    "nextServiceDate": "2026-05-20",
+    "description": "Reliable rice transplanter suitable for medium-sized paddy fields. Good fuel efficiency and performance.",
+    "condition": "Good",
+    "distance": 13
+  },
+  {
+    "equipmentName": "Mahindra 4-Row Paddy Transplanter",
+    "equipmentType": "Rice Transplanter",
+    "image": "https://example.com/mahindra-transplanter.jpg",
+    "pricePerDay": 1600,
+    "available": true,
+    "availableDates": "2026-06-15 to 2026-07-15",
+    "deposit": 6000,
+    "hasInsurance": false,
+    "includesOperator": true,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Rice"
+    ],
+    "suitableProcesses": [
+      "Transplanting"
+    ],
+    "specs": {
+      "hp": 15,
+      "year": 2019,
+      "hours": 1250
+    },
+    "features": [
+      "4-Row Planting",
+      "Manual Control",
+      "Easy Operation"
+    ],
+    "lastServiceDate": "2025-09-25",
+    "nextServiceDate": "2026-03-25",
+    "description": "Entry-level rice transplanter ideal for small farms. Simple to operate with reliable performance.",
+    "condition": "Fair",
+    "distance": 19
+  },
+  {
+    "equipmentName": "John Deere MaxEmerge Cotton Planter",
+    "equipmentType": "Cotton Planter",
+    "image": "https://example.com/johndeere-cottonplanter.jpg",
+    "pricePerDay": 1800,
+    "available": true,
+    "availableDates": "2026-05-01 to 2026-06-30",
+    "deposit": 7000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Cotton"
+    ],
+    "suitableProcesses": [
+      "Cotton Sowing",
+      "Precision Planting"
+    ],
+    "specs": {
+      "hp": 45,
+      "year": 2021,
+      "hours": 450
+    },
+    "features": [
+      "Vacuum Seed Metering",
+      "Precision Depth Control",
+      "Fertilizer Attachment",
+      "6-Row Configuration"
+    ],
+    "lastServiceDate": "2026-01-05",
+    "nextServiceDate": "2026-07-05",
+    "description": "Advanced cotton planter with vacuum metering system. Ensures precise seed placement and germination.",
+    "condition": "Excellent",
+    "distance": 8
+  },
+  {
+    "equipmentName": "Fieldking 4-Row Cotton Planter",
+    "equipmentType": "Cotton Planter",
+    "image": "https://example.com/fieldking-cottonplanter.jpg",
+    "pricePerDay": 1400,
+    "available": false,
+    "availableDates": "2026-05-15 to 2026-07-15",
+    "deposit": 5500,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Cotton",
+      "Soybeans"
+    ],
+    "suitableProcesses": [
+      "Sowing",
+      "Row Planting"
+    ],
+    "specs": {
+      "hp": 40,
+      "year": 2020,
+      "hours": 780
+    },
+    "features": [
+      "4-Row Planting",
+      "Adjustable Row Spacing",
+      "Seed Box Monitor"
+    ],
+    "lastServiceDate": "2025-10-18",
+    "nextServiceDate": "2026-04-18",
+    "description": "Versatile cotton planter with multi-crop capability. Reliable performance in various soil conditions.",
+    "condition": "Good",
+    "distance": 17
+  },
+  {
+    "equipmentName": "Mahindra Pneumatic Cotton Planter",
+    "equipmentType": "Cotton Planter",
+    "image": "https://example.com/mahindra-cottonplanter.jpg",
+    "pricePerDay": 1100,
+    "available": true,
+    "availableDates": "2026-05-20 to 2026-06-20",
+    "deposit": 4500,
+    "hasInsurance": false,
+    "includesOperator": true,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Cotton"
+    ],
+    "suitableProcesses": [
+      "Planting",
+      "Seed Drilling"
+    ],
+    "specs": {
+      "hp": 35,
+      "year": 2019,
+      "hours": 1100
+    },
+    "features": [
+      "Pneumatic System",
+      "Uniform Spacing",
+      "Furrow Opener"
+    ],
+    "lastServiceDate": "2025-09-30",
+    "nextServiceDate": "2026-03-30",
+    "description": "Economical cotton planter with pneumatic seed distribution. Good for standard cotton varieties.",
+    "condition": "Fair",
+    "distance": 21
+  },
+  {
+    "equipmentName": "Case IH Module Express 635",
+    "equipmentType": "Cotton Picker",
+    "image": "https://example.com/caseih-cottonpicker.jpg",
+    "pricePerDay": 7500,
+    "available": true,
+    "availableDates": "2026-10-01 to 2026-12-31",
+    "deposit": 35000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Cotton"
+    ],
+    "suitableProcesses": [
+      "Cotton Harvesting",
+      "Picking"
+    ],
+    "specs": {
+      "hp": 250,
+      "year": 2020,
+      "hours": 1200
+    },
+    "features": [
+      "6-Row Picker",
+      "On-Board Module Builder",
+      "GPS Auto-Steer",
+      "Cab Comfort System"
+    ],
+    "lastServiceDate": "2025-12-10",
+    "nextServiceDate": "2026-06-10",
+    "description": "High-capacity cotton picker with on-board module builder. Maximum efficiency for large cotton farms.",
+    "condition": "Excellent",
+    "distance": 40
+  },
+  {
+    "equipmentName": "John Deere CP690 Cotton Picker",
+    "equipmentType": "Cotton Picker",
+    "image": "https://example.com/johndeere-cottonpicker.jpg",
+    "pricePerDay": 8000,
+    "available": true,
+    "availableDates": "2026-10-15 to 2026-12-15",
+    "deposit": 40000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "suitableCrops": [
+      "Cotton"
+    ],
+    "suitableProcesses": [
+      "Cotton Harvesting"
+    ],
+    "specs": {
+      "hp": 280,
+      "year": 2019,
+      "hours": 1500
+    },
+    "features": [
+      "Advanced Cleaning System",
+      "Integrated Moisture Sensor",
+      "LED Lighting",
+      "Premium Cab"
+    ],
+    "lastServiceDate": "2026-01-02",
+    "nextServiceDate": "2026-07-02",
+    "description": "Premium cotton picker with superior cleaning capabilities. Minimizestrash and maximizes cotton quality.",
+    "condition": "Excellent",
+    "distance": 45
+  },
+  {
+    "equipmentName": "Gomselmash KhGP-8 Cotton Picker",
+    "equipmentType": "Cotton Picker",
+    "image": "https://example.com/gomselmash-cottonpicker.jpg",
+    "pricePerDay": 6000,
+    "available": false,
+    "availableDates": "2026-11-01 to 2026-12-31",
+    "deposit": 28000,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": true,
+    "suitableCrops": [
+      "Cotton"
+    ],
+    "suitableProcesses": [
+      "Harvesting",
+      "Picking"
+    ],
+    "specs": {
+      "hp": 220,
+      "year": 2018,
+      "hours": 2100
+    },
+    "features": [
+      "8-Row Configuration",
+      "Hydraulic System",
+      "Large Basket Capacity"
+    ],
+    "lastServiceDate": "2025-11-10",
+    "nextServiceDate": "2026-05-10",
+    "description": "Heavy-duty cotton picker suitable for commercial operations. Robust construction for Indian conditions.",
+    "condition": "Good",
+    "distance": 38
+  },
+  {
+    "equipmentName": "Shaktiman Sugarcane Planter 2-Row",
+    "equipmentType": "Sugarcane Planter",
+    "image": "https://example.com/shaktiman-sugarcaneplanter.jpg",
+    "pricePerDay": 1600,
+    "available": true,
+    "availableDates": "2026-02-01 to 2026-04-30",
+    "deposit": 6000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "suitableCrops": ["Sugarcane"],
+    "suitableProcesses": ["Planting", "Furrow Opening", "Cane Setting"],
+    "specs": {
+      "hp": 50,
+      "year": 2022,
+      "hours": 380
+    },
+    "features": [
+      "2-Row Planting",
+      "Fertilizer Applicator",
+      "Furrow Maker",
+      "Covering Device"
+    ],
+    "lastServiceDate": "2026-01-08",
+    "nextServiceDate": "2026-07-08",
+    "description": "Modern sugarcane planter with integrated fertilizer application. Reduces labor and planting time significantly.",
+    "condition": "Excellent",
+    "distance": 5
+  },
+  {
+    "equipmentName": "Mahindra Sugarcane Planter",
+    "equipmentType": "Sugarcane Planter",
+    "image": "https://example.com/mahindra-sugarcaneplanter.jpg",
+    "pricePerDay": 1300,
+    "available": true,
+    "availableDates": "2026-02-15 to 2026-05-15",
+    "deposit": 5000,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": true,
+    "suitableCrops": ["Sugarcane"],
+    "suitableProcesses": ["Planting", "Sett Placement"],
+    "specs": {
+      "hp": 45,
+      "year": 2020,
+      "hours": 850
+    },
+    "features": [
+      "Automatic Sett Cutter",
+      "Adjustable Row Spacing",
+      "Chemical Applicator"
+    ],
+    "lastServiceDate": "2025-11-22",
+    "nextServiceDate": "2026-05-22",
+    "description": "Reliable sugarcane planter with automatic sett cutting. Ensures uniform plant population.",
+    "condition": "Good",
+    "distance": 12
+  },
+  {
+    "equipmentName": "Fieldking SC-1 Sugarcane Planter",
+    "equipmentType": "Sugarcane Planter",
+    "image": "https://example.com/fieldking-sugarcaneplanter.jpg",
+    "pricePerDay": 1000,
+    "available": true,
+    "availableDates": "2026-03-01 to 2026-04-30",
+    "deposit": 4000,
+    "hasInsurance": false,
+    "includesOperator": true,
+    "includesTransport": false,
+    "suitableCrops": ["Sugarcane"],
+    "suitableProcesses": ["Planting"],
+    "specs": {
+      "hp": 40,
+      "year": 2019,
+      "hours": 1320
+    },
+    "features": [
+      "Single Row",
+      "Simple Operation",
+      "Low Maintenance"
+    ],
+    "lastServiceDate": "2025-10-12",
+    "nextServiceDate": "2026-04-12",
+    "description": "Basic sugarcane planter ideal for small to medium farms. Cost-effective planting solution.",
+    "condition": "Fair",
+    "distance": 23
+  },
+  {
+    "equipmentName": "Case IH Austoft 8800",
+    "equipmentType": "Sugarcane Harvester",
+    "image": "https://example.com/caseih-sugarcaneharvester.jpg",
+    "pricePerDay": 9000,
+    "available": true,
+    "availableDates": "2026-11-01 to 2027-03-31",
+    "deposit": 45000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "suitableCrops": ["Sugarcane"],
+    "suitableProcesses": ["Harvesting", "Chopping", "Loading"],
+    "specs": {
+      "hp": 320,
+      "year": 2020,
+      "hours": 1400
+    },
+    "features": [
+      "Dual Fan Cleaning",
+      "Chopper System",
+      "Elevator System",
+      "Auto-Guidance"
+    ],
+    "lastServiceDate": "2025-12-15",
+    "nextServiceDate": "2026-06-15",
+    "description": "Top-tier sugarcane harvester with superior cleaning system. Maximizes sugar recovery and field efficiency.",
+    "condition": "Excellent",
+    "distance": 50
+  },
+  {
+    "equipmentName": "John Deere CH570 Harvester",
+    "equipmentType": "Sugarcane Harvester",
+    "image": "https://example.com/johndeere-sugarcaneharvester.jpg",
+    "pricePerDay": 9500,
+    "available": false,
+    "availableDates": "2026-12-01 to 2027-04-30",
+    "deposit": 50000,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "suitableCrops": ["Sugarcane"],
+    "suitableProcesses": ["Harvesting", "Cutting", "Cleaning"],
+    "specs": {
+      "hp": 340,
+      "year": 2019,
+      "hours": 1650
+    },
+    "features": [
+      "SmartCut System",
+      "Multi-Row Harvesting",
+      "Advanced Extractor",
+      "Cabin Comfort"
+    ],
+    "lastServiceDate": "2026-01-10",
+    "nextServiceDate": "2026-07-10",
+    "description": "High-performance sugarcane harvester with intelligent cutting system. Ideal for large plantations.",
+    "condition": "Excellent",
+    "distance": 55
+  },
+  {
+    "equipmentName": "Swaraj SC-150 Sugarcane Harvester",
+    "equipmentType": "Sugarcane Harvester",
+    "image": "https://example.com/swaraj-sugarcaneharvester.jpg",
+    "pricePerDay": 7000,
+    "available": true,
+    "availableDates": "2026-11-15 to 2027-03-15",
+    "deposit": 35000,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": true,
+    "suitableCrops": ["Sugarcane"],
+    "suitableProcesses": ["Harvesting", "Billetizing"],
+    "specs": {
+      "hp": 280,
+      "year": 2018,
+      "hours": 2300
+    },
+    "features": [
+      "Billetizer",
+      "Primary Extractor",
+      "Hydraulic Controls"
+    ],
+    "lastServiceDate": "2025-11-05",
+    "nextServiceDate": "2026-05-05",
+    "description": "Economical sugarcane harvester designed for Indian conditions. Reliable performance at competitive rates.",
+    "condition": "Good",
+    "distance": 42
+  }
+]

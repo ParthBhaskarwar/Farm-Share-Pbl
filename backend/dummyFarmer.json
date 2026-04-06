@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Rajesh Kumar Patil",
+    "email": "rajesh.patil@gmail.com",
+    "phone_number": "9876543210",
+    "password": "rajesh123",
+    "passwordConfirm": "rajesh123",
+    "village": "Khandala",
+    "district": "Pune",
+    "trustScore": 4.5,
+    "totalBookings": 12,
+    "earnings": 45000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Rice",
+      "Wheat",
+      "Cotton"
+    ],
+    "notificationPreference": "app",
+    "equipment": []
+  },
+  {
+    "name": "Sunita Devi Sharma",
+    "email": "sunita.sharma@gmail.com",
+    "phone_number": "9876543211",
+    "password": "sunita123",
+    "passwordConfirm": "sunita123",
+    "village": "Karla",
+    "district": "Pune",
+    "trustScore": 4.8,
+    "totalBookings": 25,
+    "earnings": 78000,
+    "preferredLanguage": "Hindi",
+    "preferredCrops": [
+      "Sugarcane",
+      "Corn",
+      "Soybeans"
+    ],
+    "notificationPreference": "sms",
+    "equipment": []
+  },
+  {
+    "name": "Mahesh Shankar Jadhav",
+    "email": "mahesh.jadhav@gmail.com",
+    "phone_number": "9876543212",
+    "password": "mahesh123",
+    "passwordConfirm": "mahesh123",
+    "village": "Lonavla",
+    "district": "Pune",
+    "trustScore": 3.9,
+    "totalBookings": 8,
+    "earnings": 32000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Rice",
+      "Vegetables",
+      "Pulses"
+    ],
+    "notificationPreference": "app",
+    "equipment": []
+  },
+  {
+    "name": "Kavita Ramesh Desai",
+    "email": "kavita.desai@gmail.com",
+    "phone_number": "9876543213",
+    "password": "kavita123",
+    "passwordConfirm": "kavita123",
+    "village": "Talegaon",
+    "district": "Pune",
+    "trustScore": 4.2,
+    "totalBookings": 15,
+    "earnings": 56000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Cotton",
+      "Wheat",
+      "Groundnut"
+    ],
+    "notificationPreference": "call",
+    "equipment": []
+  },
+  {
+    "name": "Prakash Babu Reddy",
+    "email": "prakash.reddy@gmail.com",
+    "phone_number": "9876543214",
+    "password": "prakash123",
+    "passwordConfirm": "prakash123",
+    "village": "Wadgaon",
+    "district": "Pune",
+    "trustScore": 4.6,
+    "totalBookings": 20,
+    "earnings": 89000,
+    "preferredLanguage": "Telugu",
+    "preferredCrops": [
+      "Rice",
+      "Cotton",
+      "Chillies"
+    ],
+    "notificationPreference": "app",
+    "equipment": []
+  },
+  {
+    "name": "Anita Suresh More",
+    "email": "anita.more@gmail.com",
+    "phone_number": "9876543215",
+    "password": "anita1234",
+    "passwordConfirm": "anita1234",
+    "village": "Pimpri",
+    "district": "Pune",
+    "trustScore": 3.5,
+    "totalBookings": 5,
+    "earnings": 18000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Vegetables",
+      "Flowers",
+      "Fruits"
+    ],
+    "notificationPreference": "sms",
+    "equipment": []
+  },
+  {
+    "name": "Vijay Singh Chauhan",
+    "email": "vijay.chauhan@gmail.com",
+    "phone_number": "9876543216",
+    "password": "vijay123",
+    "passwordConfirm": "vijay123",
+    "village": "Bhosari",
+    "district": "Pune",
+    "trustScore": 4.1,
+    "totalBookings": 10,
+    "earnings": 42000,
+    "preferredLanguage": "Hindi",
+    "preferredCrops": [
+      "Wheat",
+      "Mustard",
+      "Barley"
+    ],
+    "notificationPreference": "app",
+    "equipment": []
+  },
+  {
+    "name": "Lakshmi Venkat Naidu",
+    "email": "lakshmi.naidu@gmail.com",
+    "phone_number": "9876543217",
+    "password": "lakshmi123",
+    "passwordConfirm": "lakshmi123",
+    "village": "Chinchwad",
+    "district": "Pune",
+    "trustScore": 4.7,
+    "totalBookings": 22,
+    "earnings": 95000,
+    "preferredLanguage": "Telugu",
+    "preferredCrops": [
+      "Rice",
+      "Turmeric",
+      "Millet"
+    ],
+    "notificationPreference": "call",
+    "equipment": []
+  },
+  {
+    "name": "Ramesh Krishna Kulkarni",
+    "email": "ramesh.kulkarni@gmail.com",
+    "phone_number": "9876543218",
+    "password": "ramesh123",
+    "passwordConfirm": "ramesh123",
+    "village": "Dehu",
+    "district": "Pune",
+    "trustScore": 3.8,
+    "totalBookings": 7,
+    "earnings": 28000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Sugarcane",
+      "Grapes",
+      "Pomegranate"
+    ],
+    "notificationPreference": "sms",
+    "equipment": []
+  },
+  {
+    "name": "Geeta Anil Pawar",
+    "email": "geeta.pawar@gmail.com",
+    "phone_number": "9876543219",
+    "password": "geeta1234",
+    "passwordConfirm": "geeta1234",
+    "village": "Alandi",
+    "district": "Pune",
+    "trustScore": 4.4,
+    "totalBookings": 18,
+    "earnings": 67000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Cotton",
+      "Soybeans",
+      "Sunflower"
+    ],
+    "notificationPreference": "app",
+    "equipment": []
+  },
+  {
+    "name": "Suresh Mohan Yadav",
+    "email": "suresh.yadav@gmail.com",
+    "phone_number": "9876543220",
+    "password": "suresh123",
+    "passwordConfirm": "suresh123",
+    "village": "Chakan",
+    "district": "Pune",
+    "trustScore": 4.0,
+    "totalBookings": 11,
+    "earnings": 48000,
+    "preferredLanguage": "Hindi",
+    "preferredCrops": [
+      "Wheat",
+      "Rice",
+      "Pulses"
+    ],
+    "notificationPreference": "call",
+    "equipment": []
+  },
+  {
+    "name": "Meena Bhaskar Shinde",
+    "email": "meena.shinde@gmail.com",
+    "phone_number": "9876543221",
+    "password": "meena1234",
+    "passwordConfirm": "meena1234",
+    "village": "Rajgurunagar",
+    "district": "Pune",
+    "trustScore": 3.6,
+    "totalBookings": 6,
+    "earnings": 22000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Vegetables",
+      "Rice",
+      "Corn"
+    ],
+    "notificationPreference": "sms",
+    "equipment": []
+  },
+  {
+    "name": "Ganesh Dattatray Bhosale",
+    "email": "ganesh.bhosale@gmail.com",
+    "phone_number": "9876543222",
+    "password": "ganesh123",
+    "passwordConfirm": "ganesh123",
+    "village": "Shirur",
+    "district": "Pune",
+    "trustScore": 4.3,
+    "totalBookings": 16,
+    "earnings": 61000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Sugarcane",
+      "Cotton",
+      "Wheat"
+    ],
+    "notificationPreference": "app",
+    "equipment": []
+  },
+  {
+    "name": "Pooja Ravi Kumar",
+    "email": "pooja.kumar@gmail.com",
+    "phone_number": "9876543223",
+    "password": "pooja1234",
+    "passwordConfirm": "pooja1234",
+    "village": "Daund",
+    "district": "Pune",
+    "trustScore": 4.5,
+    "totalBookings": 19,
+    "earnings": 72000,
+    "preferredLanguage": "Kannada",
+    "preferredCrops": [
+      "Rice",
+      "Ragi",
+      "Groundnut"
+    ],
+    "notificationPreference": "call",
+    "equipment": []
+  },
+  {
+    "name": "Ashok Vitthal Gaikwad",
+    "email": "ashok.gaikwad@gmail.com",
+    "phone_number": "9876543224",
+    "password": "ashok1234",
+    "passwordConfirm": "ashok1234",
+    "village": "Indapur",
+    "district": "Pune",
+    "trustScore": 3.7,
+    "totalBookings": 9,
+    "earnings": 35000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Cotton",
+      "Jowar",
+      "Pulses"
+    ],
+    "notificationPreference": "sms",
+    "equipment": []
+  },
+  {
+    "name": "Rekha Santosh Patil",
+    "email": "rekha.patil@gmail.com",
+    "phone_number": "9876543225",
+    "password": "rekha1234",
+    "passwordConfirm": "rekha1234",
+    "village": "Baramati",
+    "district": "Pune",
+    "trustScore": 4.9,
+    "totalBookings": 28,
+    "earnings": 112000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Sugarcane",
+      "Grapes",
+      "Vegetables"
+    ],
+    "notificationPreference": "app",
+    "equipment": []
+  },
+  {
+    "name": "Dinesh Pandurang Kamble",
+    "email": "dinesh.kamble@gmail.com",
+    "phone_number": "9876543226",
+    "password": "dinesh123",
+    "passwordConfirm": "dinesh123",
+    "village": "Purandar",
+    "district": "Pune",
+    "trustScore": 4.1,
+    "totalBookings": 13,
+    "earnings": 51000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Rice",
+      "Wheat",
+      "Vegetables"
+    ],
+    "notificationPreference": "call",
+    "equipment": []
+  },
+  {
+    "name": "Sarita Jagdish Deshmukh",
+    "email": "sarita.deshmukh@gmail.com",
+    "phone_number": "9876543227",
+    "password": "sarita123",
+    "passwordConfirm": "sarita123",
+    "village": "Haveli",
+    "district": "Pune",
+    "trustScore": 3.9,
+    "totalBookings": 10,
+    "earnings": 38000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Cotton",
+      "Soybeans",
+      "Corn"
+    ],
+    "notificationPreference": "sms",
+    "equipment": []
+  },
+  {
+    "name": "Kiran Narayan Sawant",
+    "email": "kiran.sawant@gmail.com",
+    "phone_number": "9876543228",
+    "password": "kiran1234",
+    "passwordConfirm": "kiran1234",
+    "village": "Mulshi",
+    "district": "Pune",
+    "trustScore": 4.2,
+    "totalBookings": 14,
+    "earnings": 59000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Rice",
+      "Vegetables",
+      "Flowers"
+    ],
+    "notificationPreference": "app",
+    "equipment": []
+  },
+  {
+    "name": "Balaji Raghunath Mane",
+    "email": "balaji.mane@gmail.com",
+    "phone_number": "9876543229",
+    "password": "balaji123",
+    "passwordConfirm": "balaji123",
+    "village": "Maval",
+    "district": "Pune",
+    "trustScore": 4.6,
+    "totalBookings": 21,
+    "earnings": 84000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": [
+      "Wheat",
+      "Sugarcane",
+      "Groundnut"
+    ],
+    "notificationPreference": "call",
+    "equipment": []
+  }
+]

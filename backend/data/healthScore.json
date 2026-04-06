@@ -1,0 +1,561 @@
+[
+  {
+    "equipmentId": "EQ_ID_Mahindra_575_DI",
+    "equipmentCategory": "SELF_POWERED",
+    "inspections": [
+      { "parameter": "Engine Condition", "score": 18, "maxScore": 20 },
+      { "parameter": "Hydraulic System", "score": 14, "maxScore": 15 },
+      { "parameter": "Transmission & Gearbox", "score": 13, "maxScore": 15 },
+      { "parameter": "Tyre Condition", "score": 9, "maxScore": 10 },
+      { "parameter": "Electrical & Lights", "score": 8, "maxScore": 10 },
+      { "parameter": "Body & Frame", "score": 9, "maxScore": 10 },
+      { "parameter": "Fuel System", "score": 9, "maxScore": 10 },
+      { "parameter": "Brakes & Steering", "score": 9, "maxScore": 10 }
+    ],
+    "totalScore": 89,
+    "verifiedBy": "INSPECTOR_PUNE_01",
+    "verifiedAt": "2025-01-10T09:30:00.000Z",
+    "comments": [
+      "Engine running smoothly with no smoke",
+      "Hydraulic lift functioning well",
+      "Minor tyre wear on rear left, acceptable",
+      "All lights operational"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Sonalika_DI_745_III",
+    "equipmentCategory": "SELF_POWERED",
+    "inspections": [
+      { "parameter": "Engine Condition", "score": 20, "maxScore": 20 },
+      { "parameter": "Hydraulic System", "score": 15, "maxScore": 15 },
+      { "parameter": "Transmission & Gearbox", "score": 15, "maxScore": 15 },
+      { "parameter": "Tyre Condition", "score": 10, "maxScore": 10 },
+      { "parameter": "Electrical & Lights", "score": 10, "maxScore": 10 },
+      { "parameter": "Body & Frame", "score": 10, "maxScore": 10 },
+      { "parameter": "Fuel System", "score": 10, "maxScore": 10 },
+      { "parameter": "Brakes & Steering", "score": 10, "maxScore": 10 }
+    ],
+    "totalScore": 100,
+    "verifiedBy": "INSPECTOR_PUNE_02",
+    "verifiedAt": "2025-01-12T10:15:00.000Z",
+    "comments": [
+      "Excellent overall condition",
+      "Recently serviced with all parts in top shape",
+      "Zero visible tyre wear",
+      "Dual clutch system working perfectly"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_John_Deere_5050_D",
+    "equipmentCategory": "SELF_POWERED",
+    "inspections": [
+      { "parameter": "Engine Condition", "score": 20, "maxScore": 20 },
+      { "parameter": "Hydraulic System", "score": 15, "maxScore": 15 },
+      { "parameter": "Transmission & Gearbox", "score": 14, "maxScore": 15 },
+      { "parameter": "Tyre Condition", "score": 10, "maxScore": 10 },
+      { "parameter": "Electrical & Lights", "score": 10, "maxScore": 10 },
+      { "parameter": "Body & Frame", "score": 10, "maxScore": 10 },
+      { "parameter": "Fuel System", "score": 9, "maxScore": 10 },
+      { "parameter": "Brakes & Steering", "score": 10, "maxScore": 10 }
+    ],
+    "totalScore": 98,
+    "verifiedBy": "INSPECTOR_PUNE_01",
+    "verifiedAt": "2025-01-15T11:00:00.000Z",
+    "comments": [
+      "PowerTech engine in excellent condition",
+      "PTO shaft functioning at both 540 and 1000 RPM",
+      "Minor fuel line check recommended at next service",
+      "Operator station clean and fully functional"
+    ]
+  },
+
+  {
+    "equipmentId": "EQ_ID_Fieldking_Master_Reversible_Plough",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Moldboard Condition", "score": 14, "maxScore": 20 },
+      { "parameter": "Frame & Beam Integrity", "score": 13, "maxScore": 15 },
+      { "parameter": "Linkage & Hitch Points", "score": 11, "maxScore": 15 },
+      { "parameter": "Share & Wear Parts", "score": 7, "maxScore": 10 },
+      { "parameter": "Bolt & Fastener Check", "score": 8, "maxScore": 10 },
+      { "parameter": "Depth Control Mechanism", "score": 8, "maxScore": 10 },
+      { "parameter": "Surface Rust & Paint", "score": 6, "maxScore": 10 },
+      { "parameter": "Reversing Mechanism", "score": 6, "maxScore": 10 }
+    ],
+    "totalScore": 73,
+    "verifiedBy": "INSPECTOR_PUNE_03",
+    "verifiedAt": "2024-12-20T08:45:00.000Z",
+    "comments": [
+      "Moldboards show moderate wear, still functional",
+      "Some surface rust on frame, not structural",
+      "Reversing mechanism slightly stiff, lubrication needed",
+      "Hitch points secure and aligned"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Shaktiman_Disc_Plough_5_Disc",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Disc Blade Condition", "score": 17, "maxScore": 20 },
+      { "parameter": "Frame & Beam Integrity", "score": 14, "maxScore": 15 },
+      { "parameter": "Linkage & Hitch Points", "score": 13, "maxScore": 15 },
+      { "parameter": "Bearing Condition", "score": 9, "maxScore": 10 },
+      { "parameter": "Bolt & Fastener Check", "score": 9, "maxScore": 10 },
+      { "parameter": "Depth Control Mechanism", "score": 8, "maxScore": 10 },
+      { "parameter": "Surface Rust & Paint", "score": 8, "maxScore": 10 },
+      { "parameter": "Disc Angle Adjustment", "score": 8, "maxScore": 10 }
+    ],
+    "totalScore": 86,
+    "verifiedBy": "INSPECTOR_PUNE_02",
+    "verifiedAt": "2025-01-05T10:00:00.000Z",
+    "comments": [
+      "All 5 disc blades in good condition",
+      "Ball bearing hubs clean and well greased",
+      "Depth adjustment working smoothly",
+      "Light surface rust on frame edges, non-critical"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Landforce_MB_Plough_3_Bottom",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Moldboard Condition", "score": 11, "maxScore": 20 },
+      { "parameter": "Frame & Beam Integrity", "score": 11, "maxScore": 15 },
+      { "parameter": "Linkage & Hitch Points", "score": 10, "maxScore": 15 },
+      { "parameter": "Share & Wear Parts", "score": 6, "maxScore": 10 },
+      { "parameter": "Bolt & Fastener Check", "score": 7, "maxScore": 10 },
+      { "parameter": "Depth Control Mechanism", "score": 6, "maxScore": 10 },
+      { "parameter": "Surface Rust & Paint", "score": 5, "maxScore": 10 },
+      { "parameter": "Skimmer Condition", "score": 6, "maxScore": 10 }
+    ],
+    "totalScore": 62,
+    "verifiedBy": "INSPECTOR_PUNE_03",
+    "verifiedAt": "2024-11-18T09:00:00.000Z",
+    "comments": [
+      "Shares are worn and replacement recommended soon",
+      "Visible rust on moldboard surface",
+      "Skimmers partially damaged, basic function intact",
+      "Frame structurally sound despite age"
+    ]
+  },
+
+  {
+    "equipmentId": "EQ_ID_Fieldking_Offset_Disc_Harrow",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Disc Blade Condition", "score": 19, "maxScore": 20 },
+      { "parameter": "Frame & Beam Integrity", "score": 15, "maxScore": 15 },
+      { "parameter": "Linkage & Hitch Points", "score": 14, "maxScore": 15 },
+      { "parameter": "Bearing Condition", "score": 10, "maxScore": 10 },
+      { "parameter": "Scraper Condition", "score": 9, "maxScore": 10 },
+      { "parameter": "Gang Angle Adjustment", "score": 9, "maxScore": 10 },
+      { "parameter": "Surface Rust & Paint", "score": 9, "maxScore": 10 },
+      { "parameter": "Bolt & Fastener Check", "score": 9, "maxScore": 10 }
+    ],
+    "totalScore": 94,
+    "verifiedBy": "INSPECTOR_PUNE_01",
+    "verifiedAt": "2025-01-08T11:30:00.000Z",
+    "comments": [
+      "Disc blades sharp and in near new condition",
+      "All bearings sealed and properly greased",
+      "Gang angle adjustment mechanism smooth",
+      "Scrapers intact and clearing soil effectively"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Shaktiman_Spring_Cultivator_9_Tyne",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Tyne & Spring Condition", "score": 15, "maxScore": 20 },
+      { "parameter": "Frame & Beam Integrity", "score": 13, "maxScore": 15 },
+      { "parameter": "Linkage & Hitch Points", "score": 12, "maxScore": 15 },
+      { "parameter": "Shovel Condition", "score": 8, "maxScore": 10 },
+      { "parameter": "Bolt & Fastener Check", "score": 8, "maxScore": 10 },
+      { "parameter": "Depth Control Wheel", "score": 7, "maxScore": 10 },
+      { "parameter": "Surface Rust & Paint", "score": 7, "maxScore": 10 },
+      { "parameter": "Levelling Board", "score": 7, "maxScore": 10 }
+    ],
+    "totalScore": 77,
+    "verifiedBy": "INSPECTOR_PUNE_02",
+    "verifiedAt": "2024-12-15T09:45:00.000Z",
+    "comments": [
+      "2 out of 9 springs show slight fatigue",
+      "Shovels have moderate wear, still usable",
+      "Depth control wheel functioning adequately",
+      "Frame in good structural condition"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Lemken_Smaragd_Rigid_Tine_Cultivator",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Tyne Condition", "score": 19, "maxScore": 20 },
+      { "parameter": "Frame & Beam Integrity", "score": 15, "maxScore": 15 },
+      { "parameter": "Linkage & Hitch Points", "score": 14, "maxScore": 15 },
+      { "parameter": "Duck-foot Shovel Condition", "score": 10, "maxScore": 10 },
+      { "parameter": "Bolt & Fastener Check", "score": 10, "maxScore": 10 },
+      { "parameter": "Depth Control Mechanism", "score": 9, "maxScore": 10 },
+      { "parameter": "Surface Rust & Paint", "score": 9, "maxScore": 10 },
+      { "parameter": "Levelling Roller", "score": 9, "maxScore": 10 }
+    ],
+    "totalScore": 95,
+    "verifiedBy": "INSPECTOR_PUNE_01",
+    "verifiedAt": "2025-02-02T10:00:00.000Z",
+    "comments": [
+      "All rigid tynes in excellent condition",
+      "Duck-foot shovels sharp and firmly attached",
+      "Depth control mechanism precise and smooth",
+      "Optional levelling roller fitted and functional"
+    ]
+  },
+
+  {
+    "equipmentId": "EQ_ID_Fieldking_Pneumatic_Seed_Drill_9_Row",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Seed Metering Unit", "score": 16, "maxScore": 20 },
+      { "parameter": "Frame & Toolbar", "score": 13, "maxScore": 15 },
+      { "parameter": "Linkage & Hitch Points", "score": 12, "maxScore": 15 },
+      { "parameter": "Seed Box Condition", "score": 9, "maxScore": 10 },
+      { "parameter": "Fertilizer Box & Metering", "score": 8, "maxScore": 10 },
+      { "parameter": "Press Wheels", "score": 8, "maxScore": 10 },
+      { "parameter": "Furrow Openers", "score": 8, "maxScore": 10 },
+      { "parameter": "Drive Mechanism", "score": 8, "maxScore": 10 }
+    ],
+    "totalScore": 82,
+    "verifiedBy": "INSPECTOR_PUNE_03",
+    "verifiedAt": "2024-12-22T09:00:00.000Z",
+    "comments": [
+      "Seed metering unit calibrated and accurate",
+      "Fertilizer box has minor crack, sealed temporarily",
+      "All 9 furrow openers intact",
+      "Press wheels provide good seed-soil contact"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Razor_Zero_Till_Seed_cum_Fertilizer_Drill",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Inverted T Furrow Openers", "score": 15, "maxScore": 20 },
+      { "parameter": "Frame & Toolbar", "score": 13, "maxScore": 15 },
+      { "parameter": "Linkage & Hitch Points", "score": 12, "maxScore": 15 },
+      { "parameter": "Seed Box Condition", "score": 8, "maxScore": 10 },
+      { "parameter": "Fertilizer Box & Metering", "score": 8, "maxScore": 10 },
+      { "parameter": "Depth Control Wheels", "score": 8, "maxScore": 10 },
+      { "parameter": "Drive Chain & Sprockets", "score": 7, "maxScore": 10 },
+      { "parameter": "Row Spacing Adjustment", "score": 8, "maxScore": 10 }
+    ],
+    "totalScore": 79,
+    "verifiedBy": "INSPECTOR_PUNE_02",
+    "verifiedAt": "2024-12-28T10:30:00.000Z",
+    "comments": [
+      "Furrow openers show moderate wear from stubble use",
+      "Drive chain slightly loose, adjustment recommended",
+      "Seed and fertilizer boxes clean and functional",
+      "Zero-till capability confirmed during field test"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Maschio_Gaspardo_Moresma_Seed_Drill",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Finger Pickup Metering Unit", "score": 20, "maxScore": 20 },
+      { "parameter": "Frame & Toolbar", "score": 15, "maxScore": 15 },
+      { "parameter": "Linkage & Hitch Points", "score": 14, "maxScore": 15 },
+      { "parameter": "Seed Disc Condition", "score": 10, "maxScore": 10 },
+      { "parameter": "Fertilizer Box & Metering", "score": 10, "maxScore": 10 },
+      { "parameter": "Row Unit Depth Control", "score": 9, "maxScore": 10 },
+      { "parameter": "Drive Mechanism", "score": 9, "maxScore": 10 },
+      { "parameter": "Seed Population Calibration", "score": 9, "maxScore": 10 }
+    ],
+    "totalScore": 96,
+    "verifiedBy": "INSPECTOR_PUNE_01",
+    "verifiedAt": "2025-01-28T11:00:00.000Z",
+    "comments": [
+      "Finger pickup metering unit in perfect condition",
+      "Cast iron seed discs with no visible wear",
+      "Precision depth control working accurately per row",
+      "Seed population calibration verified at 60000 seeds per acre"
+    ]
+  },
+
+  {
+    "equipmentId": "EQ_ID_Aspee_AH16_Boom_Sprayer",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Boom Structure & Folding", "score": 17, "maxScore": 20 },
+      { "parameter": "Tank Condition", "score": 13, "maxScore": 15 },
+      { "parameter": "Pump Condition", "score": 12, "maxScore": 15 },
+      { "parameter": "Nozzle Condition", "score": 9, "maxScore": 10 },
+      { "parameter": "Pressure Regulator", "score": 8, "maxScore": 10 },
+      { "parameter": "Hose & Pipe Integrity", "score": 8, "maxScore": 10 },
+      { "parameter": "Filter & Strainer", "score": 8, "maxScore": 10 },
+      { "parameter": "Linkage & Hitch Points", "score": 8, "maxScore": 10 }
+    ],
+    "totalScore": 83,
+    "verifiedBy": "INSPECTOR_PUNE_03",
+    "verifiedAt": "2025-01-06T09:15:00.000Z",
+    "comments": [
+      "Boom folding mechanism smooth with no stiffness",
+      "Tank clean with no chemical residue buildup",
+      "2 nozzles show slight wear, still within tolerance",
+      "Centrifugal pump delivering rated pressure"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Fuji_FT20L_Knapsack_Power_Sprayer",
+    "equipmentCategory": "UTILITY",
+    "inspections": [
+      { "parameter": "Engine Condition", "score": 17, "maxScore": 20 },
+      { "parameter": "Tank & Straps Condition", "score": 14, "maxScore": 15 },
+      { "parameter": "Pump & Pressure System", "score": 13, "maxScore": 15 },
+      { "parameter": "Nozzle & Lance", "score": 9, "maxScore": 10 },
+      { "parameter": "Fuel System", "score": 9, "maxScore": 10 },
+      { "parameter": "Handle & Vibration Dampening", "score": 8, "maxScore": 10 },
+      { "parameter": "Hose Integrity", "score": 8, "maxScore": 10 },
+      { "parameter": "Filter & Strainer", "score": 8, "maxScore": 10 }
+    ],
+    "totalScore": 86,
+    "verifiedBy": "INSPECTOR_PUNE_02",
+    "verifiedAt": "2025-01-11T08:30:00.000Z",
+    "comments": [
+      "2-stroke engine starting smoothly on first pull",
+      "Tank straps secure with no cracks",
+      "Anti-vibration handle working effectively",
+      "Spray range confirmed at 7 to 8 metres"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_John_Deere_R4045_SelfPropelled_Sprayer",
+    "equipmentCategory": "SELF_POWERED",
+    "inspections": [
+      { "parameter": "Engine Condition", "score": 20, "maxScore": 20 },
+      { "parameter": "Boom Structure & Folding", "score": 14, "maxScore": 15 },
+      { "parameter": "Hydraulic & Drive System", "score": 14, "maxScore": 15 },
+      { "parameter": "Tank Condition", "score": 10, "maxScore": 10 },
+      { "parameter": "GPS & Auto-Steer System", "score": 10, "maxScore": 10 },
+      { "parameter": "Nozzle & Section Control", "score": 9, "maxScore": 10 },
+      { "parameter": "Pump & Pressure System", "score": 9, "maxScore": 10 },
+      { "parameter": "Tyre & Suspension", "score": 9, "maxScore": 10 }
+    ],
+    "totalScore": 95,
+    "verifiedBy": "INSPECTOR_PUNE_01",
+    "verifiedAt": "2025-02-12T10:45:00.000Z",
+    "comments": [
+      "270 HP engine performing at full rated capacity",
+      "GPS auto-steer calibrated and accurate",
+      "All 7 boom sections controlling independently",
+      "High clearance chassis in excellent structural condition"
+    ]
+  },
+
+  {
+    "equipmentId": "EQ_ID_Claas_CropTiger_30_Terra",
+    "equipmentCategory": "SELF_POWERED",
+    "inspections": [
+      { "parameter": "Engine Condition", "score": 16, "maxScore": 20 },
+      { "parameter": "Threshing Drum & Concave", "score": 13, "maxScore": 15 },
+      { "parameter": "Cutting Header", "score": 12, "maxScore": 15 },
+      { "parameter": "Grain Tank & Unloading", "score": 8, "maxScore": 10 },
+      { "parameter": "Cleaning System", "score": 8, "maxScore": 10 },
+      { "parameter": "Drive & Transmission", "score": 8, "maxScore": 10 },
+      { "parameter": "Body & Structural Frame", "score": 7, "maxScore": 10 },
+      { "parameter": "Electrical & Controls", "score": 7, "maxScore": 10 }
+    ],
+    "totalScore": 79,
+    "verifiedBy": "INSPECTOR_PUNE_03",
+    "verifiedAt": "2024-12-02T09:30:00.000Z",
+    "comments": [
+      "Engine showing minor oil seepage, monitor closely",
+      "Cutting header reel speed adjustment working",
+      "Threshing drum adjusted for paddy crop",
+      "Grain loss within acceptable limits during test"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Mahindra_ARJUN_605_Combine",
+    "equipmentCategory": "SELF_POWERED",
+    "inspections": [
+      { "parameter": "Engine Condition", "score": 19, "maxScore": 20 },
+      { "parameter": "Threshing Drum & Concave", "score": 14, "maxScore": 15 },
+      { "parameter": "Cutting Header", "score": 14, "maxScore": 15 },
+      { "parameter": "Grain Tank & Unloading", "score": 9, "maxScore": 10 },
+      { "parameter": "Cleaning System", "score": 9, "maxScore": 10 },
+      { "parameter": "Drive & Transmission", "score": 9, "maxScore": 10 },
+      { "parameter": "Body & Structural Frame", "score": 9, "maxScore": 10 },
+      { "parameter": "Straw Chopper", "score": 9, "maxScore": 10 }
+    ],
+    "totalScore": 92,
+    "verifiedBy": "INSPECTOR_PUNE_01",
+    "verifiedAt": "2025-01-07T10:00:00.000Z",
+    "comments": [
+      "100 HP engine running at full efficiency",
+      "Straw chopper attachment fully operational",
+      "4WD system engaging correctly on soft soil test",
+      "Grain tank auger and unloading pipe in good condition"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Preet_987_SelfPropelled_Combine",
+    "equipmentCategory": "SELF_POWERED",
+    "inspections": [
+      { "parameter": "Engine Condition", "score": 17, "maxScore": 20 },
+      { "parameter": "Threshing Drum & Concave", "score": 13, "maxScore": 15 },
+      { "parameter": "Cutting Header", "score": 12, "maxScore": 15 },
+      { "parameter": "Grain Tank & Unloading", "score": 9, "maxScore": 10 },
+      { "parameter": "Cleaning System", "score": 8, "maxScore": 10 },
+      { "parameter": "Drive & Transmission", "score": 8, "maxScore": 10 },
+      { "parameter": "Body & Structural Frame", "score": 8, "maxScore": 10 },
+      { "parameter": "Straw Walker System", "score": 8, "maxScore": 10 }
+    ],
+    "totalScore": 83,
+    "verifiedBy": "INSPECTOR_PUNE_02",
+    "verifiedAt": "2024-12-22T11:00:00.000Z",
+    "comments": [
+      "Twin straw walker system functioning correctly",
+      "Hydraulic reel speed adjustment responsive",
+      "Minor engine oil top-up done during inspection",
+      "Paddy special drum fitted and tested"
+    ]
+  },
+
+  {
+    "equipmentId": "EQ_ID_Fieldking_Rotavator_Heavy_Duty_7ft",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Blade Condition", "score": 15, "maxScore": 20 },
+      { "parameter": "Gearbox Condition", "score": 13, "maxScore": 15 },
+      { "parameter": "Rotor & Shaft", "score": 12, "maxScore": 15 },
+      { "parameter": "Side Drive Assembly", "score": 8, "maxScore": 10 },
+      { "parameter": "Crumbler Roller", "score": 8, "maxScore": 10 },
+      { "parameter": "Linkage & Hitch Points", "score": 8, "maxScore": 10 },
+      { "parameter": "Shield & Hood Condition", "score": 7, "maxScore": 10 },
+      { "parameter": "Bolt & Fastener Check", "score": 7, "maxScore": 10 }
+    ],
+    "totalScore": 78,
+    "verifiedBy": "INSPECTOR_PUNE_03",
+    "verifiedAt": "2024-12-12T08:00:00.000Z",
+    "comments": [
+      "Several L-type blades show moderate wear",
+      "Gearbox oil level normal and no leakage",
+      "Crumbler roller functioning without wobble",
+      "Hood has minor dents but structurally sound"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Shaktiman_SideShift_Rotavator_6ft",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Blade Condition", "score": 14, "maxScore": 20 },
+      { "parameter": "Gearbox Condition", "score": 13, "maxScore": 15 },
+      { "parameter": "Rotor & Shaft", "score": 12, "maxScore": 15 },
+      { "parameter": "Side Shift Mechanism", "score": 8, "maxScore": 10 },
+      { "parameter": "Linkage & Hitch Points", "score": 8, "maxScore": 10 },
+      { "parameter": "Centre Chain Drive", "score": 8, "maxScore": 10 },
+      { "parameter": "Shield & Hood Condition", "score": 7, "maxScore": 10 },
+      { "parameter": "Bolt & Fastener Check", "score": 7, "maxScore": 10 }
+    ],
+    "totalScore": 77,
+    "verifiedBy": "INSPECTOR_PUNE_02",
+    "verifiedAt": "2024-11-18T09:30:00.000Z",
+    "comments": [
+      "C-type blades worn to about 60 percent life remaining",
+      "Side shift mechanism smooth with full 45 cm range",
+      "Centre chain drive properly tensioned",
+      "Depth adjustment working correctly"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Maschio_Bisonte_Rotavator_8ft",
+    "equipmentCategory": "TRACTOR_DRIVEN",
+    "inspections": [
+      { "parameter": "Blade Condition", "score": 19, "maxScore": 20 },
+      { "parameter": "Gearbox Condition", "score": 15, "maxScore": 15 },
+      { "parameter": "Rotor & Shaft", "score": 14, "maxScore": 15 },
+      { "parameter": "Flanged Rotor Bearings", "score": 10, "maxScore": 10 },
+      { "parameter": "Hydraulic Depth Control", "score": 10, "maxScore": 10 },
+      { "parameter": "Linkage & Hitch Points", "score": 9, "maxScore": 10 },
+      { "parameter": "Shield & Hood Condition", "score": 9, "maxScore": 10 },
+      { "parameter": "Bolt & Fastener Check", "score": 9, "maxScore": 10 }
+    ],
+    "totalScore": 95,
+    "verifiedBy": "INSPECTOR_PUNE_01",
+    "verifiedAt": "2025-02-06T10:30:00.000Z",
+    "comments": [
+      "Premium blades in near new condition",
+      "Heavy duty gearbox with no oil seepage",
+      "Hydraulic depth control precise and responsive",
+      "Flanged rotor bearings properly greased and sealed"
+    ]
+  },
+
+  {
+    "equipmentId": "EQ_ID_Amar_MultiCrop_Thresher_AT70",
+    "equipmentCategory": "NON_POWERED",
+    "inspections": [
+      { "parameter": "Threshing Drum & Beaters", "score": 12, "maxScore": 20 },
+      { "parameter": "Frame & Structure", "score": 11, "maxScore": 15 },
+      { "parameter": "Concave & Sieve Condition", "score": 10, "maxScore": 15 },
+      { "parameter": "Cleaning Fan", "score": 7, "maxScore": 10 },
+      { "parameter": "PTO Shaft & Coupling", "score": 7, "maxScore": 10 },
+      { "parameter": "Feed Tray Condition", "score": 6, "maxScore": 10 },
+      { "parameter": "Trolley & Wheels", "score": 6, "maxScore": 10 },
+      { "parameter": "Belt & Pulley System", "score": 6, "maxScore": 10 }
+    ],
+    "totalScore": 65,
+    "verifiedBy": "INSPECTOR_PUNE_03",
+    "verifiedAt": "2024-10-10T08:00:00.000Z",
+    "comments": [
+      "Beaters show significant wear, replacement due soon",
+      "Sieves functional but one has minor mesh damage",
+      "Cleaning fan operational with slight imbalance",
+      "PTO coupling secure but shaft has minor wobble"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Goldi_Paddy_Thresher_GP150",
+    "equipmentCategory": "NON_POWERED",
+    "inspections": [
+      { "parameter": "Threshing Drum & Beaters", "score": 16, "maxScore": 20 },
+      { "parameter": "Frame & Structure", "score": 13, "maxScore": 15 },
+      { "parameter": "Concave & Sieve Condition", "score": 12, "maxScore": 15 },
+      { "parameter": "Built-in Blower", "score": 9, "maxScore": 10 },
+      { "parameter": "PTO Shaft & Coupling", "score": 8, "maxScore": 10 },
+      { "parameter": "Feed Tray Condition", "score": 8, "maxScore": 10 },
+      { "parameter": "Concave Clearance Adjustment", "score": 8, "maxScore": 10 },
+      { "parameter": "Belt & Pulley System", "score": 7, "maxScore": 10 }
+    ],
+    "totalScore": 81,
+    "verifiedBy": "INSPECTOR_PUNE_02",
+    "verifiedAt": "2024-12-30T09:00:00.000Z",
+    "comments": [
+      "Axial flow drum in good condition with minimal wear",
+      "Concave clearance adjustment mechanism smooth",
+      "Built-in blower providing effective chaff separation",
+      "Belt tension checked and adjusted during inspection"
+    ]
+  },
+  {
+    "equipmentId": "EQ_ID_Vishwakrushi_VK_Maize_Sheller_Thresher",
+    "equipmentCategory": "NON_POWERED",
+    "inspections": [
+      { "parameter": "Shelling Drum & Rubber Pads", "score": 17, "maxScore": 20 },
+      { "parameter": "Frame & Structure", "score": 14, "maxScore": 15 },
+      { "parameter": "Concave & Sieve Condition", "score": 13, "maxScore": 15 },
+      { "parameter": "Cyclone Cleaning System", "score": 9, "maxScore": 10 },
+      { "parameter": "PTO Shaft & Coupling", "score": 9, "maxScore": 10 },
+      { "parameter": "Cob Discharge Chute", "score": 8, "maxScore": 10 },
+      { "parameter": "Feed Hopper Condition", "score": 8, "maxScore": 10 },
+      { "parameter": "Belt & Pulley System", "score": 8, "maxScore": 10 }
+    ],
+    "totalScore": 86,
+    "verifiedBy": "INSPECTOR_PUNE_01",
+    "verifiedAt": "2025-01-20T10:00:00.000Z",
+    "comments": [
+      "Rubber-padded shelling drum in excellent condition",
+      "Grain damage verified below 0.5 percent during test",
+      "Cyclone cleaning system separating chaff effectively",
+      "Cob discharge chute unobstructed and smooth"
+    ]
+  }
+]

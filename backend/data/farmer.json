@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Ramesh Vitthal Shinde",
+    "email": "ramesh.shinde@gmail.com",
+    "phone_number": "9823456710",
+    "password": "$2a$12$Kix4IfZGDsBFDhzGnCSvBOjLSMmgMBH9e5hXTMVMNfZQ7k5rQHW4K",
+    "photo": "/default.jpg",
+    "village": "Nanded",
+    "district": "Pune",
+    "earnings": 12500,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": ["Wheat", "Sugarcane", "Onion"],
+    "notificationPreference": "sms",
+    "isEmailVerified": true,
+    "signupCompleted": true,
+    "location": {
+      "type": "Point",
+      "coordinates": [73.8797, 18.4088]
+    }
+  },
+  {
+    "name": "Suresh Pandurang Jagtap",
+    "email": "suresh.jagtap@gmail.com",
+    "phone_number": "9765432180",
+    "password": "$2a$12$Kix4IfZGDsBFDhzGnCSvBOjLSMmgMBH9e5hXTMVMNfZQ7k5rQHW4K",
+    "photo": "/default.jpg",
+    "village": "Narhe",
+    "district": "Pune",
+    "earnings": 8700,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": ["Jowar", "Bajra", "Vegetables"],
+    "notificationPreference": "app",
+    "isEmailVerified": true,
+    "signupCompleted": true,
+    "location": {
+      "type": "Point",
+      "coordinates": [73.8012, 18.4601]
+    }
+  },
+  {
+    "name": "Dnyaneshwar Baburao Mane",
+    "email": "dnyaneshwar.mane@gmail.com",
+    "phone_number": "9011223344",
+    "password": "$2a$12$Kix4IfZGDsBFDhzGnCSvBOjLSMmgMBH9e5hXTMVMNfZQ7k5rQHW4K",
+    "photo": "/default.jpg",
+    "village": "Manjari",
+    "district": "Pune",
+    "earnings": 15300,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": ["Rice", "Sugarcane", "Maize"],
+    "notificationPreference": "call",
+    "isEmailVerified": true,
+    "signupCompleted": true,
+    "location": {
+      "type": "Point",
+      "coordinates": [73.9612, 18.5001]
+    }
+  },
+  {
+    "name": "Ganesh Tryambak Pawar",
+    "email": "ganesh.pawar@gmail.com",
+    "phone_number": "9876541230",
+    "password": "$2a$12$Kix4IfZGDsBFDhzGnCSvBOjLSMmgMBH9e5hXTMVMNfZQ7k5rQHW4K",
+    "photo": "/default.jpg",
+    "village": "Undri",
+    "district": "Pune",
+    "earnings": 5400,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": ["Onion", "Tomato", "Wheat"],
+    "notificationPreference": "sms",
+    "isEmailVerified": true,
+    "signupCompleted": true,
+    "location": {
+      "type": "Point",
+      "coordinates": [73.9101, 18.4572]
+    }
+  },
+  {
+    "name": "Balasaheb Kondiba Deshmukh",
+    "email": "bala.deshmukh@gmail.com",
+    "phone_number": "9654321780",
+    "password": "$2a$12$Kix4IfZGDsBFDhzGnCSvBOjLSMmgMBH9e5hXTMVMNfZQ7k5rQHW4K",
+    "photo": "/default.jpg",
+    "village": "Kondhwa Budruk",
+    "district": "Pune",
+    "earnings": 21000,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": ["Sugarcane", "Soybean", "Cotton"],
+    "notificationPreference": "app",
+    "isEmailVerified": true,
+    "signupCompleted": true,
+    "location": {
+      "type": "Point",
+      "coordinates": [73.8876, 18.4712]
+    }
+  },
+  {
+    "name": "Santosh Bhimrao Kulkarni",
+    "email": "santosh.kulkarni@gmail.com",
+    "phone_number": "9512367840",
+    "password": "$2a$12$Kix4IfZGDsBFDhzGnCSvBOjLSMmgMBH9e5hXTMVMNfZQ7k5rQHW4K",
+    "photo": "/default.jpg",
+    "village": "Pisoli",
+    "district": "Pune",
+    "earnings": 9800,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": ["Wheat", "Gram", "Sunflower"],
+    "notificationPreference": "sms",
+    "isEmailVerified": true,
+    "signupCompleted": true,
+    "location": {
+      "type": "Point",
+      "coordinates": [73.9234, 18.4423]
+    }
+  },
+  {
+    "name": "Vitthal Namdev Kadam",
+    "email": "vitthal.kadam@gmail.com",
+    "phone_number": "9345678901",
+    "password": "$2a$12$Kix4IfZGDsBFDhzGnCSvBOjLSMmgMBH9e5hXTMVMNfZQ7k5rQHW4K",
+    "photo": "/default.jpg",
+    "village": "Ambegaon Budruk",
+    "district": "Pune",
+    "earnings": 17600,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": ["Jowar", "Sugarcane", "Maize"],
+    "notificationPreference": "call",
+    "isEmailVerified": true,
+    "signupCompleted": true,
+    "location": {
+      "type": "Point",
+      "coordinates": [73.8534, 18.4789]
+    }
+  },
+  {
+    "name": "Maruti Dagadu Thorat",
+    "email": "maruti.thorat@gmail.com",
+    "phone_number": "9234567812",
+    "password": "$2a$12$Kix4IfZGDsBFDhzGnCSvBOjLSMmgMBH9e5hXTMVMNfZQ7k5rQHW4K",
+    "photo": "/default.jpg",
+    "village": "Wadgaon Budruk",
+    "district": "Pune",
+    "earnings": 6200,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": ["Onion", "Potato", "Bajra"],
+    "notificationPreference": "app",
+    "isEmailVerified": true,
+    "signupCompleted": true,
+    "location": {
+      "type": "Point",
+      "coordinates": [73.8312, 18.4534]
+    }
+  },
+  {
+    "name": "Sanjay Eknath Bhosale",
+    "email": "sanjay.bhosale@gmail.com",
+    "phone_number": "9178234560",
+    "password": "$2a$12$Kix4IfZGDsBFDhzGnCSvBOjLSMmgMBH9e5hXTMVMNfZQ7k5rQHW4K",
+    "photo": "/default.jpg",
+    "village": "Uruli Devachi",
+    "district": "Pune",
+    "earnings": 13400,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": ["Rice", "Wheat", "Pulses"],
+    "notificationPreference": "sms",
+    "isEmailVerified": true,
+    "signupCompleted": true,
+    "location": {
+      "type": "Point",
+      "coordinates": [73.9867, 18.4678]
+    }
+  },
+  {
+    "name": "Prakash Harishchandra Gaikwad",
+    "email": "prakash.gaikwad@gmail.com",
+    "phone_number": "9067845321",
+    "password": "$2a$12$Kix4IfZGDsBFDhzGnCSvBOjLSMmgMBH9e5hXTMVMNfZQ7k5rQHW4K",
+    "photo": "/default.jpg",
+    "village": "Holkarwadi",
+    "district": "Pune",
+    "earnings": 11100,
+    "preferredLanguage": "Marathi",
+    "preferredCrops": ["Soybean", "Cotton", "Groundnut"],
+    "notificationPreference": "call",
+    "isEmailVerified": true,
+    "signupCompleted": true,
+    "location": {
+      "type": "Point",
+      "coordinates": [73.9445, 18.4321]
+    }
+  }
+]

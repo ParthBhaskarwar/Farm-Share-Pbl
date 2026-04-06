@@ -1,0 +1,252 @@
+[
+  {
+    "renterId": "607f1f77bcf86cd799439021",
+    "bookingStats": {
+      "totalBookings": 48,
+      "onTimeReturns": 45,
+      "lateReturns": 2,
+      "noShows": 1
+    },
+    "equipmentHandling": {
+      "avgPreRentalHealth": 95,
+      "avgPostRentalHealth": 92
+    },
+    "creditReliability": {
+      "source": "KCC_DECLARED",
+      "creditRange": "EXCELLENT",
+      "verified": true
+    },
+    "ratings": {
+      "avgOwnerRating": 4.6
+    },
+    "verification": {
+      "isVerified": true
+    },
+    "trustScore": 4.4
+  },
+  {
+    "renterId": "607f1f77bcf86cd799439022",
+    "bookingStats": {
+      "totalBookings": 125,
+      "onTimeReturns": 122,
+      "lateReturns": 3,
+      "noShows": 0
+    },
+    "equipmentHandling": {
+      "avgPreRentalHealth": 98,
+      "avgPostRentalHealth": 97
+    },
+    "creditReliability": {
+      "source": "BANK_CERT",
+      "creditRange": "EXCELLENT",
+      "verified": true
+    },
+    "ratings": {
+      "avgOwnerRating": 4.9
+    },
+    "verification": {
+      "isVerified": true
+    },
+    "trustScore": 4.8
+  },
+  {
+    "renterId": "607f1f77bcf86cd799439023",
+    "bookingStats": {
+      "totalBookings": 22,
+      "onTimeReturns": 12,
+      "lateReturns": 6,
+      "noShows": 4
+    },
+    "equipmentHandling": {
+      "avgPreRentalHealth": 92,
+      "avgPostRentalHealth": 75
+    },
+    "creditReliability": {
+      "source": "NONE",
+      "creditRange": "POOR",
+      "verified": false
+    },
+    "ratings": {
+      "avgOwnerRating": 2.3
+    },
+    "verification": {
+      "isVerified": false
+    },
+    "trustScore": 1.4
+  },
+  {
+    "renterId": "607f1f77bcf86cd799439024",
+    "bookingStats": {
+      "totalBookings": 67,
+      "onTimeReturns": 60,
+      "lateReturns": 5,
+      "noShows": 2
+    },
+    "equipmentHandling": {
+      "avgPreRentalHealth": 96,
+      "avgPostRentalHealth": 90
+    },
+    "creditReliability": {
+      "source": "KCC_DECLARED",
+      "creditRange": "GOOD",
+      "verified": true
+    },
+    "ratings": {
+      "avgOwnerRating": 4.2
+    },
+    "verification": {
+      "isVerified": true
+    },
+    "trustScore": 3.8
+  },
+  {
+    "renterId": "607f1f77bcf86cd799439025",
+    "bookingStats": {
+      "totalBookings": 35,
+      "onTimeReturns": 25,
+      "lateReturns": 7,
+      "noShows": 3
+    },
+    "equipmentHandling": {
+      "avgPreRentalHealth": 90,
+      "avgPostRentalHealth": 80
+    },
+    "creditReliability": {
+      "source": "NONE",
+      "creditRange": "AVERAGE",
+      "verified": false
+    },
+    "ratings": {
+      "avgOwnerRating": 3.1
+    },
+    "verification": {
+      "isVerified": false
+    },
+    "trustScore": 2.3
+  },
+  {
+    "renterId": "607f1f77bcf86cd799439026",
+    "bookingStats": {
+      "totalBookings": 89,
+      "onTimeReturns": 85,
+      "lateReturns": 4,
+      "noShows": 0
+    },
+    "equipmentHandling": {
+      "avgPreRentalHealth": 97,
+      "avgPostRentalHealth": 94
+    },
+    "creditReliability": {
+      "source": "BANK_CERT",
+      "creditRange": "EXCELLENT",
+      "verified": true
+    },
+    "ratings": {
+      "avgOwnerRating": 4.7
+    },
+    "verification": {
+      "isVerified": true
+    },
+    "trustScore": 4.6
+  },
+  {
+    "renterId": "607f1f77bcf86cd799439027",
+    "bookingStats": {
+      "totalBookings": 54,
+      "onTimeReturns": 45,
+      "lateReturns": 6,
+      "noShows": 3
+    },
+    "equipmentHandling": {
+      "avgPreRentalHealth": 94,
+      "avgPostRentalHealth": 87
+    },
+    "creditReliability": {
+      "source": "KCC_DECLARED",
+      "creditRange": "GOOD",
+      "verified": true
+    },
+    "ratings": {
+      "avgOwnerRating": 3.8
+    },
+    "verification": {
+      "isVerified": true
+    },
+    "trustScore": 3.4
+  },
+  {
+    "renterId": "607f1f77bcf86cd799439028",
+    "bookingStats": {
+      "totalBookings": 15,
+      "onTimeReturns": 8,
+      "lateReturns": 4,
+      "noShows": 3
+    },
+    "equipmentHandling": {
+      "avgPreRentalHealth": 88,
+      "avgPostRentalHealth": 68
+    },
+    "creditReliability": {
+      "source": "NONE",
+      "creditRange": "POOR",
+      "verified": false
+    },
+    "ratings": {
+      "avgOwnerRating": 1.9
+    },
+    "verification": {
+      "isVerified": false
+    },
+    "trustScore": 1.1
+  },
+  {
+    "renterId": "607f1f77bcf86cd799439029",
+    "bookingStats": {
+      "totalBookings": 72,
+      "onTimeReturns": 68,
+      "lateReturns": 3,
+      "noShows": 1
+    },
+    "equipmentHandling": {
+      "avgPreRentalHealth": 96,
+      "avgPostRentalHealth": 91
+    },
+    "creditReliability": {
+      "source": "BANK_CERT",
+      "creditRange": "GOOD",
+      "verified": true
+    },
+    "ratings": {
+      "avgOwnerRating": 4.4
+    },
+    "verification": {
+      "isVerified": true
+    },
+    "trustScore": 4.1
+  },
+  {
+    "renterId": "607f1f77bcf86cd799439030",
+    "bookingStats": {
+      "totalBookings": 41,
+      "onTimeReturns": 32,
+      "lateReturns": 6,
+      "noShows": 3
+    },
+    "equipmentHandling": {
+      "avgPreRentalHealth": 91,
+      "avgPostRentalHealth": 82
+    },
+    "creditReliability": {
+      "source": "KCC_DECLARED",
+      "creditRange": "AVERAGE",
+      "verified": false
+    },
+    "ratings": {
+      "avgOwnerRating": 3.4
+    },
+    "verification": {
+      "isVerified": false
+    },
+    "trustScore": 2.7
+  }
+]

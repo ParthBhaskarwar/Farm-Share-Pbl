@@ -1,0 +1,222 @@
+[
+  {
+    "ownerId": "684a1b2c3d4e5f6a7b8c9d01",
+    "equipmentAccuracy": {
+      "mismatchCount": 0
+    },
+    "reliabilityStats": {
+      "totalRentals": 87,
+      "breakdowns": 2
+    },
+    "maintenanceStats": {
+      "scheduledServices": 12,
+      "completedServices": 12
+    },
+    "behaviorStats": {
+      "deliveryOnTimePercent": 98,
+      "supportRating": 96
+    },
+    "ratings": {
+      "avgRenterRating": 4.9
+    },
+    "trustScore": 4.8
+  },
+  {
+    "ownerId": "684a1b2c3d4e5f6a7b8c9d02",
+    "equipmentAccuracy": {
+      "mismatchCount": 1
+    },
+    "reliabilityStats": {
+      "totalRentals": 64,
+      "breakdowns": 3
+    },
+    "maintenanceStats": {
+      "scheduledServices": 10,
+      "completedServices": 9
+    },
+    "behaviorStats": {
+      "deliveryOnTimePercent": 93,
+      "supportRating": 88
+    },
+    "ratings": {
+      "avgRenterRating": 4.6
+    },
+    "trustScore": 4.3
+  },
+  {
+    "ownerId": "684a1b2c3d4e5f6a7b8c9d03",
+    "equipmentAccuracy": {
+      "mismatchCount": 2
+    },
+    "reliabilityStats": {
+      "totalRentals": 45,
+      "breakdowns": 4
+    },
+    "maintenanceStats": {
+      "scheduledServices": 8,
+      "completedServices": 7
+    },
+    "behaviorStats": {
+      "deliveryOnTimePercent": 88,
+      "supportRating": 82
+    },
+    "ratings": {
+      "avgRenterRating": 4.3
+    },
+    "trustScore": 3.8
+  },
+  {
+    "ownerId": "684a1b2c3d4e5f6a7b8c9d04",
+    "equipmentAccuracy": {
+      "mismatchCount": 1
+    },
+    "reliabilityStats": {
+      "totalRentals": 112,
+      "breakdowns": 5
+    },
+    "maintenanceStats": {
+      "scheduledServices": 15,
+      "completedServices": 14
+    },
+    "behaviorStats": {
+      "deliveryOnTimePercent": 95,
+      "supportRating": 91
+    },
+    "ratings": {
+      "avgRenterRating": 4.7
+    },
+    "trustScore": 4.5
+  },
+  {
+    "ownerId": "684a1b2c3d4e5f6a7b8c9d05",
+    "equipmentAccuracy": {
+      "mismatchCount": 5
+    },
+    "reliabilityStats": {
+      "totalRentals": 30,
+      "breakdowns": 7
+    },
+    "maintenanceStats": {
+      "scheduledServices": 6,
+      "completedServices": 3
+    },
+    "behaviorStats": {
+      "deliveryOnTimePercent": 67,
+      "supportRating": 55
+    },
+    "ratings": {
+      "avgRenterRating": 2.8
+    },
+    "trustScore": 1.9
+  },
+  {
+    "ownerId": "684a1b2c3d4e5f6a7b8c9d06",
+    "equipmentAccuracy": {
+      "mismatchCount": 4
+    },
+    "reliabilityStats": {
+      "totalRentals": 52,
+      "breakdowns": 9
+    },
+    "maintenanceStats": {
+      "scheduledServices": 9,
+      "completedServices": 5
+    },
+    "behaviorStats": {
+      "deliveryOnTimePercent": 72,
+      "supportRating": 63
+    },
+    "ratings": {
+      "avgRenterRating": 3.1
+    },
+    "trustScore": 2.4
+  },
+  {
+    "ownerId": "684a1b2c3d4e5f6a7b8c9d07",
+    "equipmentAccuracy": {
+      "mismatchCount": 3
+    },
+    "reliabilityStats": {
+      "totalRentals": 38,
+      "breakdowns": 5
+    },
+    "maintenanceStats": {
+      "scheduledServices": 7,
+      "completedServices": 6
+    },
+    "behaviorStats": {
+      "deliveryOnTimePercent": 81,
+      "supportRating": 74
+    },
+    "ratings": {
+      "avgRenterRating": 3.7
+    },
+    "trustScore": 3.1
+  },
+  {
+    "ownerId": "684a1b2c3d4e5f6a7b8c9d08",
+    "equipmentAccuracy": {
+      "mismatchCount": 0
+    },
+    "reliabilityStats": {
+      "totalRentals": 73,
+      "breakdowns": 1
+    },
+    "maintenanceStats": {
+      "scheduledServices": 11,
+      "completedServices": 11
+    },
+    "behaviorStats": {
+      "deliveryOnTimePercent": 97,
+      "supportRating": 94
+    },
+    "ratings": {
+      "avgRenterRating": 4.8
+    },
+    "trustScore": 4.7
+  },
+  {
+    "ownerId": "684a1b2c3d4e5f6a7b8c9d09",
+    "equipmentAccuracy": {
+      "mismatchCount": 6
+    },
+    "reliabilityStats": {
+      "totalRentals": 21,
+      "breakdowns": 8
+    },
+    "maintenanceStats": {
+      "scheduledServices": 4,
+      "completedServices": 1
+    },
+    "behaviorStats": {
+      "deliveryOnTimePercent": 54,
+      "supportRating": 41
+    },
+    "ratings": {
+      "avgRenterRating": 1.9
+    },
+    "trustScore": 1.1
+  },
+  {
+    "ownerId": "684a1b2c3d4e5f6a7b8c9d10",
+    "equipmentAccuracy": {
+      "mismatchCount": 2
+    },
+    "reliabilityStats": {
+      "totalRentals": 59,
+      "breakdowns": 6
+    },
+    "maintenanceStats": {
+      "scheduledServices": 10,
+      "completedServices": 8
+    },
+    "behaviorStats": {
+      "deliveryOnTimePercent": 84,
+      "supportRating": 78
+    },
+    "ratings": {
+      "avgRenterRating": 4.0
+    },
+    "trustScore": 3.5
+  }
+]

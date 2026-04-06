@@ -1,0 +1,529 @@
+[
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e218",
+    "equipment": "EQ_ID_Mahindra_575_DI",
+    "rating": 5,
+    "comment": "Excellent tractor, engine was smooth and fuel consumption was very low. Completed my entire wheat field in one day without any issues.",
+    "tags": ["Smooth", "Fuel Efficient", "Well Maintained"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21a",
+    "equipment": "EQ_ID_Mahindra_575_DI",
+    "rating": 4,
+    "comment": "Good tractor overall. Hydraulic system worked perfectly and the tyres had good grip on my field. Minor dust on the seat but acceptable.",
+    "tags": ["Well Maintained", "Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "equipment": "EQ_ID_Mahindra_575_DI",
+    "rating": 4,
+    "comment": "Reliable machine. Got all my ploughing done on time. Fuel efficiency was decent and the gear shifting was smooth throughout.",
+    "tags": ["Fuel Efficient", "Smooth", "Worth Price"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e217",
+    "equipment": "EQ_ID_Sonalika_DI_745_III",
+    "rating": 5,
+    "comment": "Absolutely brilliant tractor. Freshly serviced, spotlessly clean and power delivery was incredible. Best rental experience I have had.",
+    "tags": ["Clean", "Well Maintained", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21b",
+    "equipment": "EQ_ID_Sonalika_DI_745_III",
+    "rating": 5,
+    "comment": "Zero complaints. The dual clutch system made operation effortless and the engine pulled through even the hardest patches of soil.",
+    "tags": ["Smooth", "Well Maintained", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21d",
+    "equipment": "EQ_ID_Sonalika_DI_745_III",
+    "rating": 5,
+    "comment": "Like a brand new tractor. Deep ploughing in black cotton soil was done effortlessly. Highly recommend this machine to any farmer.",
+    "tags": ["Well Maintained", "Clean", "Fuel Efficient"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21a",
+    "equipment": "EQ_ID_John_Deere_5050_D",
+    "rating": 5,
+    "comment": "John Deere never disappoints. The PTO worked flawlessly and the operator cabin was very comfortable for long hours of work.",
+    "tags": ["Smooth", "Clean", "Well Maintained"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21e",
+    "equipment": "EQ_ID_John_Deere_5050_D",
+    "rating": 4,
+    "comment": "Very good machine. Advanced hydraulics made attachment changes quick and easy. Fuel usage was slightly high but performance was top class.",
+    "tags": ["Well Maintained", "Smooth", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e220",
+    "equipment": "EQ_ID_John_Deere_5050_D",
+    "rating": 5,
+    "comment": "Exceptional tractor. Cotton field preparation was done in record time. Everything from the tyres to the PTO shaft was in perfect condition.",
+    "tags": ["Well Maintained", "Fuel Efficient", "Smooth"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21b",
+    "equipment": "EQ_ID_Fieldking_Master_Reversible_Plough",
+    "rating": 3,
+    "comment": "Plough got the job done but the reversing mechanism was a bit stiff. Had to apply extra force to flip. Frame had some rust marks.",
+    "tags": ["Old", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21d",
+    "equipment": "EQ_ID_Fieldking_Master_Reversible_Plough",
+    "rating": 3,
+    "comment": "Average experience. The moldboards worked fine for wheat field preparation but share edges felt slightly blunt compared to expectations.",
+    "tags": ["Old", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21f",
+    "equipment": "EQ_ID_Fieldking_Master_Reversible_Plough",
+    "rating": 4,
+    "comment": "Decent plough for the price. Worked well in loamy soil. The depth control was adjustable and soil inversion was uniform across the field.",
+    "tags": ["Worth Price", "Smooth"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e217",
+    "equipment": "EQ_ID_Shaktiman_Disc_Plough_5_Disc",
+    "rating": 4,
+    "comment": "All five discs cut through hard soil without any choking. Bearings were well greased and the gang angle adjustment was smooth.",
+    "tags": ["Well Maintained", "Smooth", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e219",
+    "equipment": "EQ_ID_Shaktiman_Disc_Plough_5_Disc",
+    "rating": 4,
+    "comment": "Good disc plough. Made easy work of black cotton soil which is usually difficult. Minor surface rust on frame but nothing affecting performance.",
+    "tags": ["Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "equipment": "EQ_ID_Shaktiman_Disc_Plough_5_Disc",
+    "rating": 5,
+    "comment": "Outstanding performance on my soybean field. Fast ploughing, low draft and disc blades were razor sharp. Very satisfied with the rental.",
+    "tags": ["Well Maintained", "Smooth", "Worth Price"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e218",
+    "equipment": "EQ_ID_Landforce_MB_Plough_3_Bottom",
+    "rating": 2,
+    "comment": "The plough was quite old and the shares were blunt. Had to make multiple passes on some patches. Skimmers were damaged and not fully functional.",
+    "tags": ["Old", "Poor Condition"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21e",
+    "equipment": "EQ_ID_Landforce_MB_Plough_3_Bottom",
+    "rating": 3,
+    "comment": "Work got done but it was not a smooth experience. Rust on moldboards and depth adjustment was stiff. Expected better condition for the price.",
+    "tags": ["Old", "Poor Condition", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e220",
+    "equipment": "EQ_ID_Landforce_MB_Plough_3_Bottom",
+    "rating": 2,
+    "comment": "Below average condition. Frame was structurally okay but operational parts were worn out. Would not rent this plough again.",
+    "tags": ["Old", "Poor Condition"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e218",
+    "equipment": "EQ_ID_Fieldking_Offset_Disc_Harrow",
+    "rating": 5,
+    "comment": "Brilliant harrow. Disc blades were razor sharp and soil pulverization was excellent in a single pass. Bearings smooth with zero noise.",
+    "tags": ["Well Maintained", "Clean", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21a",
+    "equipment": "EQ_ID_Fieldking_Offset_Disc_Harrow",
+    "rating": 5,
+    "comment": "Top quality equipment. Used it for seedbed preparation after paddy harvest. Gang angle adjustment was precise and scrapers worked perfectly.",
+    "tags": ["Well Maintained", "Smooth", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "equipment": "EQ_ID_Fieldking_Offset_Disc_Harrow",
+    "rating": 4,
+    "comment": "Very good harrow. Covered the field quickly and soil crumbling was uniform. Slightly overpriced compared to similar equipment in the area.",
+    "tags": ["Well Maintained", "Smooth", "Overpriced"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e219",
+    "equipment": "EQ_ID_Shaktiman_Spring_Cultivator_9_Tyne",
+    "rating": 3,
+    "comment": "Some springs felt weaker than others leading to uneven penetration depth across rows. Basic work done but not consistently.",
+    "tags": ["Old", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21b",
+    "equipment": "EQ_ID_Shaktiman_Spring_Cultivator_9_Tyne",
+    "rating": 4,
+    "comment": "Decent cultivator for inter-row weed control. Shovels were reasonably sharp and depth control was working fine. Good value for money.",
+    "tags": ["Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21f",
+    "equipment": "EQ_ID_Shaktiman_Spring_Cultivator_9_Tyne",
+    "rating": 3,
+    "comment": "Average condition. Levelling board was slightly bent and two tynes had reduced spring tension. Serviceable but needs maintenance.",
+    "tags": ["Old", "Poor Condition"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e217",
+    "equipment": "EQ_ID_Lemken_Smaragd_Rigid_Tine_Cultivator",
+    "rating": 5,
+    "comment": "Premium European cultivator and the quality shows. Every tyne penetrated uniformly and the seedbed was perfectly prepared in one pass.",
+    "tags": ["Well Maintained", "Smooth", "Clean"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21d",
+    "equipment": "EQ_ID_Lemken_Smaragd_Rigid_Tine_Cultivator",
+    "rating": 5,
+    "comment": "Outstanding cultivator. Duck-foot shovels were very sharp and stubble incorporation was thorough. Definitely worth the rental price.",
+    "tags": ["Well Maintained", "Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e220",
+    "equipment": "EQ_ID_Lemken_Smaragd_Rigid_Tine_Cultivator",
+    "rating": 4,
+    "comment": "Excellent build quality and performance. Depth control was precise down to the centimetre. Slightly higher rental cost but justified by quality.",
+    "tags": ["Well Maintained", "Smooth", "Overpriced"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e219",
+    "equipment": "EQ_ID_Fieldking_Pneumatic_Seed_Drill_9_Row",
+    "rating": 4,
+    "comment": "Seed placement was very accurate and germination was uniform across all 9 rows. Fertilizer box had a minor crack but was sealed and functional.",
+    "tags": ["Well Maintained", "Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21b",
+    "equipment": "EQ_ID_Fieldking_Pneumatic_Seed_Drill_9_Row",
+    "rating": 4,
+    "comment": "Good seed drill. Covered a large area quickly and seed rate was consistent throughout. Press wheels ensured good soil contact.",
+    "tags": ["Smooth", "Worth Price", "Well Maintained"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21e",
+    "equipment": "EQ_ID_Fieldking_Pneumatic_Seed_Drill_9_Row",
+    "rating": 5,
+    "comment": "Superb seed drill. Mustard sowing was done with perfect row spacing. No seed wastage and the metering unit was very accurate.",
+    "tags": ["Well Maintained", "Clean", "Smooth"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e218",
+    "equipment": "EQ_ID_Razor_Zero_Till_Seed_cum_Fertilizer_Drill",
+    "rating": 4,
+    "comment": "Excellent for direct wheat sowing after paddy. Saved significant time and moisture was conserved well. Drive chain was slightly loose but manageable.",
+    "tags": ["Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "equipment": "EQ_ID_Razor_Zero_Till_Seed_cum_Fertilizer_Drill",
+    "rating": 3,
+    "comment": "Concept is great but furrow openers showed wear and depth was not perfectly consistent in very hard soil. Still a useful machine overall.",
+    "tags": ["Old", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e220",
+    "equipment": "EQ_ID_Razor_Zero_Till_Seed_cum_Fertilizer_Drill",
+    "rating": 4,
+    "comment": "Very useful for conservation tillage farming. Barley sowing was done efficiently. Seed and fertilizer placement was accurate and crop emerged well.",
+    "tags": ["Worth Price", "Smooth", "Well Maintained"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e217",
+    "equipment": "EQ_ID_Maschio_Gaspardo_Moresma_Seed_Drill",
+    "rating": 5,
+    "comment": "World class seed drill. Finger pickup metering is flawless and maize population was exactly as set. Not a single seed was damaged.",
+    "tags": ["Well Maintained", "Clean", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21d",
+    "equipment": "EQ_ID_Maschio_Gaspardo_Moresma_Seed_Drill",
+    "rating": 5,
+    "comment": "Best precision sowing experience I have had. Each row had identical plant spacing and the depth was consistent throughout the entire field.",
+    "tags": ["Well Maintained", "Smooth", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21f",
+    "equipment": "EQ_ID_Maschio_Gaspardo_Moresma_Seed_Drill",
+    "rating": 4,
+    "comment": "Excellent precision drill. Sunflower sowing was perfect. Only minor feedback is that the rental price is on the higher side for small farmers.",
+    "tags": ["Well Maintained", "Smooth", "Overpriced"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21a",
+    "equipment": "EQ_ID_Aspee_AH16_Boom_Sprayer",
+    "rating": 4,
+    "comment": "Boom sprayer covered a wide area very efficiently. All nozzles were spraying uniformly and pressure was stable throughout the operation.",
+    "tags": ["Well Maintained", "Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "equipment": "EQ_ID_Aspee_AH16_Boom_Sprayer",
+    "rating": 4,
+    "comment": "Good sprayer for large fields. Completed pesticide application on cotton in very less time. Two nozzles had slight wear but still functional.",
+    "tags": ["Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21e",
+    "equipment": "EQ_ID_Aspee_AH16_Boom_Sprayer",
+    "rating": 3,
+    "comment": "Average experience. One boom section had a pressure drop and required adjustment mid-operation. Tank was clean but hose had minor stiffness.",
+    "tags": ["Worth Price", "Old"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e219",
+    "equipment": "EQ_ID_Fuji_FT20L_Knapsack_Power_Sprayer",
+    "rating": 4,
+    "comment": "Lightweight and easy to carry across the vegetable field. Engine started on first pull every time. Good spray range and coverage.",
+    "tags": ["Well Maintained", "Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21b",
+    "equipment": "EQ_ID_Fuji_FT20L_Knapsack_Power_Sprayer",
+    "rating": 4,
+    "comment": "Perfect for small farm spraying. Anti-vibration handle made it comfortable even after long use. Tank capacity was adequate for my groundnut field.",
+    "tags": ["Well Maintained", "Worth Price", "Clean"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21f",
+    "equipment": "EQ_ID_Fuji_FT20L_Knapsack_Power_Sprayer",
+    "rating": 3,
+    "comment": "Decent sprayer but engine felt slightly underpowered for thick canopy crops. Fine for open row vegetables. Nozzle adjustment was easy to use.",
+    "tags": ["Worth Price", "Old"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e217",
+    "equipment": "EQ_ID_John_Deere_R4045_SelfPropelled_Sprayer",
+    "rating": 5,
+    "comment": "Commercial grade machine. GPS auto-steer made zero-overlap passes and the 36 metre boom covered my entire sugarcane field in under two hours.",
+    "tags": ["Well Maintained", "Clean", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21d",
+    "equipment": "EQ_ID_John_Deere_R4045_SelfPropelled_Sprayer",
+    "rating": 5,
+    "comment": "Incredible machine. Section control ensured no double spraying on headlands. Chemical savings were significant. Worth every rupee of the rental.",
+    "tags": ["Well Maintained", "Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21f",
+    "equipment": "EQ_ID_John_Deere_R4045_SelfPropelled_Sprayer",
+    "rating": 4,
+    "comment": "Exceptional sprayer but the rental cost is very high. Performance is undeniable though. For large commercial fields it is absolutely worth it.",
+    "tags": ["Well Maintained", "Smooth", "Overpriced"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e218",
+    "equipment": "EQ_ID_Claas_CropTiger_30_Terra",
+    "rating": 3,
+    "comment": "Compact harvester worked fine for small paddy plots. Engine had minor oil seepage but did not affect operation. Grain loss was within limits.",
+    "tags": ["Old", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21a",
+    "equipment": "EQ_ID_Claas_CropTiger_30_Terra",
+    "rating": 4,
+    "comment": "Good mini combine for tight field spaces. Easy to maneuver in narrow plots. Threshing efficiency was good and clean grain output was satisfactory.",
+    "tags": ["Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "equipment": "EQ_ID_Claas_CropTiger_30_Terra",
+    "rating": 3,
+    "comment": "Average performance. Worked on small wheat field but controls felt slightly dated. Body had dents and the machine showed its age during long runs.",
+    "tags": ["Old", "Poor Condition", "Worth Price"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e219",
+    "equipment": "EQ_ID_Mahindra_ARJUN_605_Combine",
+    "rating": 5,
+    "comment": "Powerful combine that handled my large wheat field effortlessly. Straw chopper worked great and grain tank capacity meant fewer stops.",
+    "tags": ["Well Maintained", "Smooth", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21b",
+    "equipment": "EQ_ID_Mahindra_ARJUN_605_Combine",
+    "rating": 5,
+    "comment": "Excellent harvester. 4WD handled my soft paddy field without getting stuck. Grain unloading was fast and clean. Zero breakdowns throughout.",
+    "tags": ["Well Maintained", "Clean", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21e",
+    "equipment": "EQ_ID_Mahindra_ARJUN_605_Combine",
+    "rating": 4,
+    "comment": "Very solid combine. Soybean harvesting was clean with minimal pod shatter loss. Rental price is high but the output quality justifies it.",
+    "tags": ["Well Maintained", "Worth Price", "Smooth"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e217",
+    "equipment": "EQ_ID_Preet_987_SelfPropelled_Combine",
+    "rating": 4,
+    "comment": "Reliable Punjabi combine that knows wheat harvesting. Twin straw walkers handled thick crop well. Hydraulic reel adjustment was very responsive.",
+    "tags": ["Well Maintained", "Smooth", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "equipment": "EQ_ID_Preet_987_SelfPropelled_Combine",
+    "rating": 4,
+    "comment": "Good all-round combine. Paddy drum was fitted and rice harvesting was clean. Grain tank size was slightly small for my field size but manageable.",
+    "tags": ["Well Maintained", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e220",
+    "equipment": "EQ_ID_Preet_987_SelfPropelled_Combine",
+    "rating": 3,
+    "comment": "Decent harvester but engine needed an oil top-up during use. Performance was consistent after that. Slightly older machine but still gets the job done.",
+    "tags": ["Old", "Worth Price"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21b",
+    "equipment": "EQ_ID_Fieldking_Rotavator_Heavy_Duty_7ft",
+    "rating": 4,
+    "comment": "Heavy duty rotavator that powered through paddy stubble without choking. Crumbler roller gave a nice fine tilth. Blades showed some wear but worked.",
+    "tags": ["Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21d",
+    "equipment": "EQ_ID_Fieldking_Rotavator_Heavy_Duty_7ft",
+    "rating": 3,
+    "comment": "Several blades are due for replacement. Rotavation depth was inconsistent in a few rows. Gearbox was fine but overall blade condition needs attention.",
+    "tags": ["Old", "Poor Condition", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21f",
+    "equipment": "EQ_ID_Fieldking_Rotavator_Heavy_Duty_7ft",
+    "rating": 4,
+    "comment": "Good rotavator for the price. Prepared a decent seedbed for wheat after rice crop. Hood had minor dents but operation was not affected.",
+    "tags": ["Worth Price", "Smooth"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e218",
+    "equipment": "EQ_ID_Shaktiman_SideShift_Rotavator_6ft",
+    "rating": 4,
+    "comment": "Side shift feature was very useful for inter-row work in sugarcane. Chain drive was well tensioned and depth adjustment worked smoothly.",
+    "tags": ["Well Maintained", "Smooth", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21a",
+    "equipment": "EQ_ID_Shaktiman_SideShift_Rotavator_6ft",
+    "rating": 3,
+    "comment": "Blades were quite worn which affected penetration in hard soil. Side shift mechanism worked fine though. Needs blade replacement before next season.",
+    "tags": ["Old", "Poor Condition"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21e",
+    "equipment": "EQ_ID_Shaktiman_SideShift_Rotavator_6ft",
+    "rating": 4,
+    "comment": "Useful rotavator for cotton inter-row cultivation. Full 45 cm lateral shift worked as expected. Depth was consistent and weed control was effective.",
+    "tags": ["Worth Price", "Smooth"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e219",
+    "equipment": "EQ_ID_Maschio_Bisonte_Rotavator_8ft",
+    "rating": 5,
+    "comment": "Nearly new rotavator and the quality is exceptional. Blades cut through hard clay soil like butter. Hydraulic depth control was precise to the last centimetre.",
+    "tags": ["Well Maintained", "Clean", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "equipment": "EQ_ID_Maschio_Bisonte_Rotavator_8ft",
+    "rating": 5,
+    "comment": "Top of the line rotavator. Covered 8 feet in one pass with perfect soil pulverization. Gearbox was solid and there was zero vibration during operation.",
+    "tags": ["Well Maintained", "Smooth", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e220",
+    "equipment": "EQ_ID_Maschio_Bisonte_Rotavator_8ft",
+    "rating": 5,
+    "comment": "Brilliant machine. Used it for mustard seedbed preparation and the result was a perfectly fine tilth. Heavy duty gearbox handled full load without any heating.",
+    "tags": ["Well Maintained", "Smooth", "Fuel Efficient"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21d",
+    "equipment": "EQ_ID_Amar_MultiCrop_Thresher_AT70",
+    "rating": 2,
+    "comment": "Beaters are badly worn and threshing efficiency was poor. Had to run grain through twice to get clean separation. Needs urgent maintenance.",
+    "tags": ["Old", "Poor Condition", "Breakdown"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21f",
+    "equipment": "EQ_ID_Amar_MultiCrop_Thresher_AT70",
+    "rating": 3,
+    "comment": "Manageable for gram threshing but not ideal. One sieve had mesh damage leading to some grain loss with chaff. PTO coupling worked fine.",
+    "tags": ["Old", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e217",
+    "equipment": "EQ_ID_Amar_MultiCrop_Thresher_AT70",
+    "rating": 2,
+    "comment": "Disappointed with the condition. Cleaning fan had imbalance noise and threshing output had too much broken grain. Would not rent again.",
+    "tags": ["Poor Condition", "Old", "Breakdown"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21a",
+    "equipment": "EQ_ID_Goldi_Paddy_Thresher_GP150",
+    "rating": 4,
+    "comment": "Good paddy thresher. Axial drum separated grain cleanly with minimal breakage. Blower was effective at removing chaff from the output.",
+    "tags": ["Well Maintained", "Worth Price", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "equipment": "EQ_ID_Goldi_Paddy_Thresher_GP150",
+    "rating": 4,
+    "comment": "Reliable paddy thresher. Concave clearance adjustment was easy and output was clean. Belt tension was good and there were no unexpected stops.",
+    "tags": ["Well Maintained", "Smooth", "Worth Price"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21e",
+    "equipment": "EQ_ID_Goldi_Paddy_Thresher_GP150",
+    "rating": 5,
+    "comment": "Excellent threshing speed and clean grain output. Processed my entire paddy harvest in half the time I expected. Very happy with the rental.",
+    "tags": ["Well Maintained", "Clean", "Worth Price"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e218",
+    "equipment": "EQ_ID_Vishwakrushi_VK_Maize_Sheller_Thresher",
+    "rating": 4,
+    "comment": "Rubber padded drum was gentle on maize kernels and grain damage was very low. Cyclone cleaning system was effective and output was clean.",
+    "tags": ["Well Maintained", "Worth Price", "Clean"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21b",
+    "equipment": "EQ_ID_Vishwakrushi_VK_Maize_Sheller_Thresher",
+    "rating": 5,
+    "comment": "Excellent maize sheller. Zero cob pieces in the grain output and shelling speed was impressive. Cob discharge chute worked without any blockage.",
+    "tags": ["Well Maintained", "Clean", "Smooth"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e220",
+    "equipment": "EQ_ID_Vishwakrushi_VK_Maize_Sheller_Thresher",
+    "rating": 4,
+    "comment": "Very good sheller for the price. Feed hopper was large enough for bulk feeding and the PTO coupling was smooth throughout operation.",
+    "tags": ["Well Maintained", "Worth Price", "Smooth"]
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e217",
+    "farmer": "69baa5056129b05fc4f0e218",
+    "rating": 5,
+    "comment": "Delivered the tractor right on time and the equipment was in perfect condition. Had a wonderful rental experience overall.",
+    "tags": ["On-Time", "Trustworthy", "Professional"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e217",
+    "farmer": "69baa5056129b05fc4f0e21a",
+    "rating": 4,
+    "comment": "Good experience overall. Was slightly late but the equipment condition was fine. Would consider renting again.",
+    "tags": ["Helpful", "Polite", "Late"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e217",
+    "farmer": "69baa5056129b05fc4f0e21c",
+    "rating": 3,
+    "comment": "Service was average. The pricing felt a bit high compared to others and communication could have been better.",
+    "tags": ["Overpriced", "Responsive"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e218",
+    "farmer": "69baa5056129b05fc4f0e219",
+    "rating": 5,
+    "comment": "Excellent farmer to deal with. Equipment was well maintained and he supported us throughout the rental period. Highly recommend.",
+    "tags": ["Professional", "Trustworthy", "Helpful"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e218",
+    "farmer": "69baa5056129b05fc4f0e21b",
+    "rating": 2,
+    "comment": "Delivery was very late and it was difficult to reach him on the phone. The whole process was more stressful than it should have been.",
+    "tags": ["Late", "Unresponsive"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e218",
+    "farmer": "69baa5056129b05fc4f0e21d",
+    "rating": 4,
+    "comment": "Work was done properly and the equipment was in good shape. There was a slight delay in communication but everything went well.",
+    "tags": ["Polite", "On-Time", "Responsive"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e219",
+    "farmer": "69baa5056129b05fc4f0e21a",
+    "rating": 5,
+    "comment": "Outstanding experience. Arrived exactly on time and the rotavator was in perfect working condition. Would definitely rent again.",
+    "tags": ["On-Time", "Professional", "Trustworthy"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e219",
+    "farmer": "69baa5056129b05fc4f0e21e",
+    "rating": 3,
+    "comment": "Average experience. There was a minor issue with the equipment that got resolved later. Communication was just okay.",
+    "tags": ["Responsive", "Helpful"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e219",
+    "farmer": "69baa5056129b05fc4f0e220",
+    "rating": 4,
+    "comment": "Very trustworthy person. Gives honest and direct answers to every question. Equipment was in proper condition.",
+    "tags": ["Trustworthy", "Polite", "Professional"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21a",
+    "farmer": "69baa5056129b05fc4f0e217",
+    "rating": 4,
+    "comment": "Reliable and focused farmer. Got the thresher on time and completed the field work quickly without any issues.",
+    "tags": ["On-Time", "Helpful", "Polite"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21a",
+    "farmer": "69baa5056129b05fc4f0e21b",
+    "rating": 2,
+    "comment": "Had to call multiple times to get a response. Work eventually got done but the experience was quite frustrating.",
+    "tags": ["Unresponsive", "Late"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21a",
+    "farmer": "69baa5056129b05fc4f0e21f",
+    "rating": 5,
+    "comment": "Absolutely brilliant farmer. Seed drill was in top condition, delivered on time and picked up on time. Full marks without any doubt.",
+    "tags": ["Trustworthy", "Professional", "On-Time"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21b",
+    "farmer": "69baa5056129b05fc4f0e21c",
+    "rating": 3,
+    "comment": "Service was okay but the price negotiation was a bit tough. Equipment condition was acceptable for the work needed.",
+    "tags": ["Overpriced", "Polite"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21b",
+    "farmer": "69baa5056129b05fc4f0e21e",
+    "rating": 4,
+    "comment": "Good service overall. Sprayer was in working order and delivered on time. Could be a bit more responsive on messages.",
+    "tags": ["Helpful", "On-Time", "Responsive"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21b",
+    "farmer": "69baa5056129b05fc4f0e220",
+    "rating": 5,
+    "comment": "Top class farmer. The harvester looked almost brand new, zero problems throughout. Will definitely rent from him again.",
+    "tags": ["Trustworthy", "Professional", "Helpful"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "farmer": "69baa5056129b05fc4f0e217",
+    "rating": 3,
+    "comment": "Work got done but faced a few hurdles. There was a minor equipment issue which he fixed later. Experience was just average.",
+    "tags": ["Responsive", "Polite"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "farmer": "69baa5056129b05fc4f0e219",
+    "rating": 5,
+    "comment": "Very reliable farmer. Cultivator was in top condition and he responds instantly to any query. Genuinely impressive service.",
+    "tags": ["Trustworthy", "Responsive", "Professional"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21c",
+    "farmer": "69baa5056129b05fc4f0e21f",
+    "rating": 4,
+    "comment": "Overall a good experience. There was a small scheduling issue but it got sorted out quickly. Straightforward and polite person.",
+    "tags": ["Helpful", "On-Time", "Polite"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21d",
+    "farmer": "69baa5056129b05fc4f0e218",
+    "rating": 5,
+    "comment": "Excellent tractor provided. Very fuel efficient and the entire field was completed in a single day. Great farmer to work with.",
+    "tags": ["Professional", "Trustworthy", "On-Time"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21d",
+    "farmer": "69baa5056129b05fc4f0e21e",
+    "rating": 2,
+    "comment": "Delivery took very long and the equipment looked quite worn out. The service fell well below expectations.",
+    "tags": ["Late", "Unresponsive"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21d",
+    "farmer": "69baa5056129b05fc4f0e220",
+    "rating": 4,
+    "comment": "Trustworthy and sensible farmer. Disc plough was in good condition and was delivered right on time.",
+    "tags": ["Trustworthy", "Helpful", "Responsive"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21e",
+    "farmer": "69baa5056129b05fc4f0e21d",
+    "rating": 4,
+    "comment": "Solid experience. The equipment was clean and well serviced. He was easy to talk to and handled everything professionally.",
+    "tags": ["Professional", "Polite", "Helpful"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21e",
+    "farmer": "69baa5056129b05fc4f0e21f",
+    "rating": 5,
+    "comment": "One of the best rentals I have had. Everything was perfectly arranged, equipment was excellent and no delays at all.",
+    "tags": ["On-Time", "Trustworthy", "Professional"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21e",
+    "farmer": "69baa5056129b05fc4f0e217",
+    "rating": 3,
+    "comment": "Decent experience but not exceptional. Equipment had some wear and tear. Communication was slow at times.",
+    "tags": ["Responsive", "Polite"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21f",
+    "farmer": "69baa5056129b05fc4f0e21b",
+    "rating": 1,
+    "comment": "Very disappointing experience. Equipment broke down mid-work and he was completely unreachable after that. Would not recommend.",
+    "tags": ["Unresponsive", "Late"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21f",
+    "farmer": "69baa5056129b05fc4f0e21c",
+    "rating": 3,
+    "comment": "Rates were on the higher side for the quality of equipment provided. Service was acceptable but nothing outstanding.",
+    "tags": ["Overpriced", "Polite"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e21f",
+    "farmer": "69baa5056129b05fc4f0e21d",
+    "rating": 4,
+    "comment": "Good farmer to work with. Responded quickly to all messages and the equipment was delivered in clean condition.",
+    "tags": ["Responsive", "Helpful", "On-Time"]
+  },
+
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e220",
+    "farmer": "69baa5056129b05fc4f0e21a",
+    "rating": 5,
+    "comment": "Fantastic experience from start to finish. Equipment was top notch and he guided me on how to use it properly as well.",
+    "tags": ["Helpful", "Professional", "Trustworthy"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e220",
+    "farmer": "69baa5056129b05fc4f0e218",
+    "rating": 4,
+    "comment": "Very good rental experience. Tractor was well maintained and he kept in touch throughout the booking period.",
+    "tags": ["Responsive", "On-Time", "Polite"]
+  },
+  {
+    "ReviewerFarmer": "69baa5056129b05fc4f0e220",
+    "farmer": "69baa5056129b05fc4f0e219",
+    "rating": 5,
+    "comment": "Exceptional farmer. Equipment was spotless, delivery was on time and the whole process was completely hassle free.",
+    "tags": ["Trustworthy", "Professional", "On-Time"]
+  }
+]

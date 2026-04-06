@@ -1,0 +1,537 @@
+[
+  {
+    "equipment": "EQ_ID_Mahindra_575_DI",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/mahindra575_1.jpg", "public_id": "farm/mahindra575_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/mahindra575_2.jpg", "public_id": "farm/mahindra575_2" }
+    ],
+    "pricePerHour": 450,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "specs": { "year": 2019, "hours": 1200 },
+    "lastServiceDate": "2024-11-10",
+    "nextServiceDate": "2025-05-10",
+    "farmer": "69baa5056129b05fc4f0e217",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.8797, 18.4088] },
+    "dynamicPrice": 470,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Sonalika_DI_745_III",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/sonalika745_1.jpg", "public_id": "farm/sonalika745_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/sonalika745_2.jpg", "public_id": "farm/sonalika745_2" }
+    ],
+    "pricePerHour": 520,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": true,
+    "specs": { "year": 2020, "hours": 980 },
+    "lastServiceDate": "2024-12-01",
+    "nextServiceDate": "2025-06-01",
+    "farmer": "69baa5056129b05fc4f0e218",
+    "condition": "Excellent",
+    "location": { "type": "Point", "coordinates": [73.8012, 18.4601] },
+    "dynamicPrice": 540,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_John_Deere_5050_D",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/johndeere5050_1.jpg", "public_id": "farm/johndeere5050_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/johndeere5050_2.jpg", "public_id": "farm/johndeere5050_2" }
+    ],
+    "pricePerHour": 580,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "specs": { "year": 2021, "hours": 640 },
+    "lastServiceDate": "2025-01-15",
+    "nextServiceDate": "2025-07-15",
+    "farmer": "69baa5056129b05fc4f0e219",
+    "condition": "Excellent",
+    "location": { "type": "Point", "coordinates": [73.9612, 18.5001] },
+    "dynamicPrice": 610,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+
+  {
+    "equipment": "EQ_ID_Fieldking_Master_Reversible_Plough",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/fieldking_plough_1.jpg", "public_id": "farm/fieldking_plough_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/fieldking_plough_2.jpg", "public_id": "farm/fieldking_plough_2" }
+    ],
+    "pricePerHour": 220,
+    "available": true,
+    "hasInsurance": false,
+    "includesOperator": false,
+    "includesTransport": false,
+    "specs": { "year": 2018, "hours": 2100 },
+    "lastServiceDate": "2024-10-20",
+    "nextServiceDate": "2025-04-20",
+    "farmer": "69baa5056129b05fc4f0e21a",
+    "condition": "Fair",
+    "location": { "type": "Point", "coordinates": [73.9101, 18.4572] },
+    "dynamicPrice": 210,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Shaktiman_Disc_Plough_5_Disc",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/shaktiman_disc_1.jpg", "public_id": "farm/shaktiman_disc_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/shaktiman_disc_2.jpg", "public_id": "farm/shaktiman_disc_2" }
+    ],
+    "pricePerHour": 240,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": false,
+    "specs": { "year": 2020, "hours": 1450 },
+    "lastServiceDate": "2024-11-05",
+    "nextServiceDate": "2025-05-05",
+    "farmer": "69baa5056129b05fc4f0e21b",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.8876, 18.4712] },
+    "dynamicPrice": 255,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Landforce_MB_Plough_3_Bottom",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/landforce_mb_1.jpg", "public_id": "farm/landforce_mb_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/landforce_mb_2.jpg", "public_id": "farm/landforce_mb_2" }
+    ],
+    "pricePerHour": 200,
+    "available": true,
+    "hasInsurance": false,
+    "includesOperator": false,
+    "includesTransport": false,
+    "specs": { "year": 2017, "hours": 2800 },
+    "lastServiceDate": "2024-09-12",
+    "nextServiceDate": "2025-03-12",
+    "farmer": "69baa5056129b05fc4f0e21c",
+    "condition": "Fair",
+    "location": { "type": "Point", "coordinates": [73.9234, 18.4423] },
+    "dynamicPrice": 190,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+
+  {
+    "equipment": "EQ_ID_Fieldking_Offset_Disc_Harrow",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/fieldking_harrow_1.jpg", "public_id": "farm/fieldking_harrow_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/fieldking_harrow_2.jpg", "public_id": "farm/fieldking_harrow_2" }
+    ],
+    "pricePerHour": 280,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "specs": { "year": 2021, "hours": 760 },
+    "lastServiceDate": "2025-01-08",
+    "nextServiceDate": "2025-07-08",
+    "farmer": "69baa5056129b05fc4f0e21d",
+    "condition": "Excellent",
+    "location": { "type": "Point", "coordinates": [73.8534, 18.4789] },
+    "dynamicPrice": 295,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Shaktiman_Spring_Cultivator_9_Tyne",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/shaktiman_cultivator_1.jpg", "public_id": "farm/shaktiman_cultivator_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/shaktiman_cultivator_2.jpg", "public_id": "farm/shaktiman_cultivator_2" }
+    ],
+    "pricePerHour": 190,
+    "available": true,
+    "hasInsurance": false,
+    "includesOperator": false,
+    "includesTransport": false,
+    "specs": { "year": 2019, "hours": 1680 },
+    "lastServiceDate": "2024-10-30",
+    "nextServiceDate": "2025-04-30",
+    "farmer": "69baa5056129b05fc4f0e21e",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.8312, 18.4534] },
+    "dynamicPrice": 180,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Lemken_Smaragd_Rigid_Tine_Cultivator",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/lemken_smaragd_1.jpg", "public_id": "farm/lemken_smaragd_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/lemken_smaragd_2.jpg", "public_id": "farm/lemken_smaragd_2" }
+    ],
+    "pricePerHour": 320,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": true,
+    "specs": { "year": 2022, "hours": 420 },
+    "lastServiceDate": "2025-02-01",
+    "nextServiceDate": "2025-08-01",
+    "farmer": "69baa5056129b05fc4f0e21f",
+    "condition": "Excellent",
+    "location": { "type": "Point", "coordinates": [73.9867, 18.4678] },
+    "dynamicPrice": 340,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+
+  {
+    "equipment": "EQ_ID_Fieldking_Pneumatic_Seed_Drill_9_Row",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/fieldking_seeddrill_1.jpg", "public_id": "farm/fieldking_seeddrill_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/fieldking_seeddrill_2.jpg", "public_id": "farm/fieldking_seeddrill_2" }
+    ],
+    "pricePerHour": 350,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "specs": { "year": 2020, "hours": 1100 },
+    "lastServiceDate": "2024-12-18",
+    "nextServiceDate": "2025-06-18",
+    "farmer": "69baa5056129b05fc4f0e220",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.9445, 18.4321] },
+    "dynamicPrice": 370,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Razor_Zero_Till_Seed_cum_Fertilizer_Drill",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/razor_zerotill_1.jpg", "public_id": "farm/razor_zerotill_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/razor_zerotill_2.jpg", "public_id": "farm/razor_zerotill_2" }
+    ],
+    "pricePerHour": 300,
+    "available": true,
+    "hasInsurance": false,
+    "includesOperator": false,
+    "includesTransport": false,
+    "specs": { "year": 2019, "hours": 1340 },
+    "lastServiceDate": "2024-11-22",
+    "nextServiceDate": "2025-05-22",
+    "farmer": "69baa5056129b05fc4f0e217",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.8797, 18.4088] },
+    "dynamicPrice": 315,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Maschio_Gaspardo_Moresma_Seed_Drill",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/maschio_seeddrill_1.jpg", "public_id": "farm/maschio_seeddrill_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/maschio_seeddrill_2.jpg", "public_id": "farm/maschio_seeddrill_2" }
+    ],
+    "pricePerHour": 420,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "specs": { "year": 2022, "hours": 380 },
+    "lastServiceDate": "2025-01-25",
+    "nextServiceDate": "2025-07-25",
+    "farmer": "69baa5056129b05fc4f0e218",
+    "condition": "Excellent",
+    "location": { "type": "Point", "coordinates": [73.8012, 18.4601] },
+    "dynamicPrice": 445,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+
+  {
+    "equipment": "EQ_ID_Aspee_AH16_Boom_Sprayer",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/aspee_boom_1.jpg", "public_id": "farm/aspee_boom_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/aspee_boom_2.jpg", "public_id": "farm/aspee_boom_2" }
+    ],
+    "pricePerHour": 260,
+    "available": true,
+    "hasInsurance": false,
+    "includesOperator": false,
+    "includesTransport": false,
+    "specs": { "year": 2020, "hours": 900 },
+    "lastServiceDate": "2024-12-05",
+    "nextServiceDate": "2025-06-05",
+    "farmer": "69baa5056129b05fc4f0e219",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.9612, 18.5001] },
+    "dynamicPrice": 275,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Fuji_FT20L_Knapsack_Power_Sprayer",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/fuji_knapsack_1.jpg", "public_id": "farm/fuji_knapsack_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/fuji_knapsack_2.jpg", "public_id": "farm/fuji_knapsack_2" }
+    ],
+    "pricePerHour": 80,
+    "available": true,
+    "hasInsurance": false,
+    "includesOperator": false,
+    "includesTransport": true,
+    "specs": { "year": 2021, "hours": 540 },
+    "lastServiceDate": "2025-01-10",
+    "nextServiceDate": "2025-07-10",
+    "farmer": "69baa5056129b05fc4f0e21a",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.9101, 18.4572] },
+    "dynamicPrice": 85,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_John_Deere_R4045_SelfPropelled_Sprayer",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/jd_r4045_1.jpg", "public_id": "farm/jd_r4045_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/jd_r4045_2.jpg", "public_id": "farm/jd_r4045_2" }
+    ],
+    "pricePerHour": 1800,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "specs": { "year": 2022, "hours": 310 },
+    "lastServiceDate": "2025-02-10",
+    "nextServiceDate": "2025-08-10",
+    "farmer": "69baa5056129b05fc4f0e21b",
+    "condition": "Excellent",
+    "location": { "type": "Point", "coordinates": [73.8876, 18.4712] },
+    "dynamicPrice": 1900,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+
+  {
+    "equipment": "EQ_ID_Claas_CropTiger_30_Terra",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/claas_croptiger_1.jpg", "public_id": "farm/claas_croptiger_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/claas_croptiger_2.jpg", "public_id": "farm/claas_croptiger_2" }
+    ],
+    "pricePerHour": 950,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "specs": { "year": 2019, "hours": 1560 },
+    "lastServiceDate": "2024-11-28",
+    "nextServiceDate": "2025-05-28",
+    "farmer": "69baa5056129b05fc4f0e21c",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.9234, 18.4423] },
+    "dynamicPrice": 980,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Mahindra_ARJUN_605_Combine",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/mahindra_arjun_1.jpg", "public_id": "farm/mahindra_arjun_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/mahindra_arjun_2.jpg", "public_id": "farm/mahindra_arjun_2" }
+    ],
+    "pricePerHour": 1400,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "specs": { "year": 2021, "hours": 820 },
+    "lastServiceDate": "2025-01-05",
+    "nextServiceDate": "2025-07-05",
+    "farmer": "69baa5056129b05fc4f0e21d",
+    "condition": "Excellent",
+    "location": { "type": "Point", "coordinates": [73.8534, 18.4789] },
+    "dynamicPrice": 1480,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Preet_987_SelfPropelled_Combine",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/preet987_1.jpg", "public_id": "farm/preet987_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/preet987_2.jpg", "public_id": "farm/preet987_2" }
+    ],
+    "pricePerHour": 1200,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "specs": { "year": 2020, "hours": 1100 },
+    "lastServiceDate": "2024-12-20",
+    "nextServiceDate": "2025-06-20",
+    "farmer": "69baa5056129b05fc4f0e21e",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.8312, 18.4534] },
+    "dynamicPrice": 1250,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+
+  {
+    "equipment": "EQ_ID_Fieldking_Rotavator_Heavy_Duty_7ft",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/fieldking_rotavator_1.jpg", "public_id": "farm/fieldking_rotavator_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/fieldking_rotavator_2.jpg", "public_id": "farm/fieldking_rotavator_2" }
+    ],
+    "pricePerHour": 380,
+    "available": true,
+    "hasInsurance": false,
+    "includesOperator": false,
+    "includesTransport": false,
+    "specs": { "year": 2020, "hours": 1320 },
+    "lastServiceDate": "2024-12-10",
+    "nextServiceDate": "2025-06-10",
+    "farmer": "69baa5056129b05fc4f0e21f",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.9867, 18.4678] },
+    "dynamicPrice": 400,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Shaktiman_SideShift_Rotavator_6ft",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/shaktiman_rotavator_1.jpg", "public_id": "farm/shaktiman_rotavator_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/shaktiman_rotavator_2.jpg", "public_id": "farm/shaktiman_rotavator_2" }
+    ],
+    "pricePerHour": 330,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": false,
+    "includesTransport": false,
+    "specs": { "year": 2019, "hours": 1580 },
+    "lastServiceDate": "2024-11-15",
+    "nextServiceDate": "2025-05-15",
+    "farmer": "69baa5056129b05fc4f0e220",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.9445, 18.4321] },
+    "dynamicPrice": 345,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Maschio_Bisonte_Rotavator_8ft",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/maschio_bisonte_1.jpg", "public_id": "farm/maschio_bisonte_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/maschio_bisonte_2.jpg", "public_id": "farm/maschio_bisonte_2" }
+    ],
+    "pricePerHour": 440,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": true,
+    "specs": { "year": 2022, "hours": 290 },
+    "lastServiceDate": "2025-02-05",
+    "nextServiceDate": "2025-08-05",
+    "farmer": "69baa5056129b05fc4f0e217",
+    "condition": "Excellent",
+    "location": { "type": "Point", "coordinates": [73.8797, 18.4088] },
+    "dynamicPrice": 465,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+
+  {
+    "equipment": "EQ_ID_Amar_MultiCrop_Thresher_AT70",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/amar_thresher_1.jpg", "public_id": "farm/amar_thresher_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/amar_thresher_2.jpg", "public_id": "farm/amar_thresher_2" }
+    ],
+    "pricePerHour": 270,
+    "available": true,
+    "hasInsurance": false,
+    "includesOperator": false,
+    "includesTransport": false,
+    "specs": { "year": 2018, "hours": 2200 },
+    "lastServiceDate": "2024-10-05",
+    "nextServiceDate": "2025-04-05",
+    "farmer": "69baa5056129b05fc4f0e218",
+    "condition": "Fair",
+    "location": { "type": "Point", "coordinates": [73.8012, 18.4601] },
+    "dynamicPrice": 255,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Goldi_Paddy_Thresher_GP150",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/goldi_thresher_1.jpg", "public_id": "farm/goldi_thresher_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/goldi_thresher_2.jpg", "public_id": "farm/goldi_thresher_2" }
+    ],
+    "pricePerHour": 310,
+    "available": true,
+    "hasInsurance": true,
+    "includesOperator": true,
+    "includesTransport": false,
+    "specs": { "year": 2020, "hours": 1240 },
+    "lastServiceDate": "2024-12-28",
+    "nextServiceDate": "2025-06-28",
+    "farmer": "69baa5056129b05fc4f0e219",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.9612, 18.5001] },
+    "dynamicPrice": 325,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  },
+  {
+    "equipment": "EQ_ID_Vishwakrushi_VK_Maize_Sheller_Thresher",
+    "images": [
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/vk_maize_sheller_1.jpg", "public_id": "farm/vk_maize_sheller_1" },
+      { "url": "https://res.cloudinary.com/farm/image/upload/v1/vk_maize_sheller_2.jpg", "public_id": "farm/vk_maize_sheller_2" }
+    ],
+    "pricePerHour": 230,
+    "available": true,
+    "hasInsurance": false,
+    "includesOperator": false,
+    "includesTransport": false,
+    "specs": { "year": 2021, "hours": 680 },
+    "lastServiceDate": "2025-01-18",
+    "nextServiceDate": "2025-07-18",
+    "farmer": "69baa5056129b05fc4f0e21a",
+    "condition": "Good",
+    "location": { "type": "Point", "coordinates": [73.9101, 18.4572] },
+    "dynamicPrice": 245,
+    "status": "published",
+    "inspectionCompleted": true,
+    "equipmentPublished": true
+  }
+]

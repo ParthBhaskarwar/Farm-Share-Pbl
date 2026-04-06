@@ -1,0 +1,452 @@
+[
+  {
+    "equipmentName": "Mahindra 575 DI",
+    "equipmentType": "Tractors",
+    "suitableCrops": ["Wheat", "Rice", "Sugarcane", "Cotton", "Maize"],
+    "suitableProcesses": [
+      { "process": "Ploughing", "duration": 3, "amount": 800 },
+      { "process": "Tilling", "duration": 2, "amount": 600 },
+      { "process": "Harvesting", "duration": 4, "amount": 1200 }
+    ],
+    "description": "The Mahindra 575 DI is a 45 HP 2WD tractor widely used across India for various agricultural operations. Known for its fuel efficiency and robust build, it is ideal for medium to large farms.",
+    "features": [
+      "45 HP engine",
+      "2WD drive system",
+      "Power steering",
+      "8 forward + 2 reverse gears",
+      "1500 kg lifting capacity",
+      "Fuel efficient direct injection engine"
+    ]
+  },
+  {
+    "equipmentName": "Sonalika DI 745 III",
+    "equipmentType": "Tractors",
+    "suitableCrops": ["Wheat", "Paddy", "Mustard", "Sunflower", "Soybean"],
+    "suitableProcesses": [
+      { "process": "Ploughing", "duration": 3, "amount": 850 },
+      { "process": "Rotavation", "duration": 2, "amount": 700 },
+      { "process": "Transportation", "duration": 1, "amount": 400 }
+    ],
+    "description": "Sonalika DI 745 III is a powerful 60 HP tractor designed for heavy-duty field operations. It offers superior torque and is highly suitable for deep ploughing in hard soil conditions.",
+    "features": [
+      "60 HP engine",
+      "4WD option available",
+      "Oil-immersed brakes",
+      "12 forward + 3 reverse gears",
+      "2100 kg lifting capacity",
+      "Dual clutch system"
+    ]
+  },
+  {
+    "equipmentName": "John Deere 5050 D",
+    "equipmentType": "Tractors",
+    "suitableCrops": ["Cotton", "Sugarcane", "Maize", "Groundnut", "Pulses"],
+    "suitableProcesses": [
+      { "process": "Ploughing", "duration": 2, "amount": 900 },
+      { "process": "Seeding", "duration": 2, "amount": 650 },
+      { "process": "Spraying", "duration": 1, "amount": 500 }
+    ],
+    "description": "John Deere 5050 D is a 50 HP tractor known for precision and durability. With advanced hydraulics and comfortable operator station, it is preferred by progressive farmers across India.",
+    "features": [
+      "50 HP PowerTech engine",
+      "Synchromesh transmission",
+      "Ergonomic operator station",
+      "Advanced hydraulic system",
+      "1800 kg lifting capacity",
+      "PTO shaft 540/1000 RPM"
+    ]
+  },
+
+  {
+    "equipmentName": "Fieldking Master Reversible Plough",
+    "equipmentType": "Ploughs",
+    "suitableCrops": ["Wheat", "Rice", "Sugarcane", "Pulses", "Oilseeds"],
+    "suitableProcesses": [
+      { "process": "Primary Tillage", "duration": 3, "amount": 500 },
+      { "process": "Deep Ploughing", "duration": 4, "amount": 700 }
+    ],
+    "description": "The Fieldking Master Reversible Plough is designed for efficient primary tillage, turning the soil uniformly to prepare a fine seedbed. It works on both wet and dry soils with minimum soil compaction.",
+    "features": [
+      "High-strength boron steel moldboards",
+      "Reversible design for uniform furrows",
+      "Adjustable working depth up to 30 cm",
+      "Compatible with 35-75 HP tractors",
+      "3-point linkage mounting",
+      "Low maintenance design"
+    ]
+  },
+  {
+    "equipmentName": "Shaktiman Disc Plough 5 Disc",
+    "equipmentType": "Ploughs",
+    "suitableCrops": ["Cotton", "Soybean", "Maize", "Wheat", "Sunflower"],
+    "suitableProcesses": [
+      { "process": "Primary Tillage", "duration": 3, "amount": 550 },
+      { "process": "Stubble Incorporation", "duration": 2, "amount": 400 }
+    ],
+    "description": "Shaktiman 5 Disc Plough is built for breaking hard and compacted soils. The five-disc configuration ensures faster ploughing with reduced draft requirement, making it ideal for black cotton soils.",
+    "features": [
+      "5 heavy-duty disc blades",
+      "610 mm disc diameter",
+      "Adjustable disc angle (15°-25°)",
+      "Ball bearing disc hubs",
+      "Compatible with 50-65 HP tractors",
+      "Robust frame construction"
+    ]
+  },
+  {
+    "equipmentName": "Landforce MB Plough 3 Bottom",
+    "equipmentType": "Ploughs",
+    "suitableCrops": ["Paddy", "Wheat", "Mustard", "Gram", "Barley"],
+    "suitableProcesses": [
+      { "process": "Deep Ploughing", "duration": 4, "amount": 650 },
+      { "process": "Soil Inversion", "duration": 3, "amount": 500 }
+    ],
+    "description": "Landforce MB Plough is a 3-bottom mould board plough that inverts the soil completely, burying weeds and crop residue. It is best suited for loamy and sandy loam soils before Rabi crop sowing.",
+    "features": [
+      "3 mould board bottoms",
+      "High-carbon steel shares",
+      "Working depth up to 25 cm",
+      "Skimmers for residue burial",
+      "Compatible with 45-60 HP tractors",
+      "Category II 3-point linkage"
+    ]
+  },
+
+  {
+    "equipmentName": "Fieldking Offset Disc Harrow",
+    "equipmentType": "Cultivators",
+    "suitableCrops": ["Wheat", "Rice", "Maize", "Soybean", "Groundnut"],
+    "suitableProcesses": [
+      { "process": "Secondary Tillage", "duration": 2, "amount": 400 },
+      { "process": "Weed Control", "duration": 1, "amount": 300 },
+      { "process": "Seedbed Preparation", "duration": 2, "amount": 450 }
+    ],
+    "description": "Fieldking Offset Disc Harrow breaks down clods and prepares a fine seedbed after primary tillage. The offset design allows better soil penetration and effective incorporation of organic matter.",
+    "features": [
+      "16 to 24 disc blades",
+      "510 mm disc diameter",
+      "Adjustable gang angle",
+      "Scraper for each disc",
+      "Compatible with 45-75 HP tractors",
+      "Heavy-duty sealed bearings"
+    ]
+  },
+  {
+    "equipmentName": "Shaktiman Spring Cultivator 9 Tyne",
+    "equipmentType": "Cultivators",
+    "suitableCrops": ["Wheat", "Mustard", "Barley", "Gram", "Sunflower"],
+    "suitableProcesses": [
+      { "process": "Weed Control", "duration": 1, "amount": 250 },
+      { "process": "Seedbed Preparation", "duration": 2, "amount": 350 },
+      { "process": "Inter-row Cultivation", "duration": 1, "amount": 200 }
+    ],
+    "description": "Shaktiman Spring Cultivator with 9 tynes is used for secondary tillage and inter-row cultivation. The spring-loaded tynes absorb soil shocks and work effectively in stony or cloddy fields.",
+    "features": [
+      "9 spring-loaded tynes",
+      "High-carbon steel shovels",
+      "Working depth up to 20 cm",
+      "Adjustable tyne spacing",
+      "Compatible with 35-55 HP tractors",
+      "Levelling board attachment"
+    ]
+  },
+  {
+    "equipmentName": "Lemken Smaragd Rigid Tine Cultivator",
+    "equipmentType": "Cultivators",
+    "suitableCrops": ["Wheat", "Cotton", "Soybean", "Maize", "Pulses"],
+    "suitableProcesses": [
+      { "process": "Deep Loosening", "duration": 3, "amount": 500 },
+      { "process": "Seedbed Preparation", "duration": 2, "amount": 420 },
+      { "process": "Stubble Management", "duration": 2, "amount": 380 }
+    ],
+    "description": "Lemken Smaragd is a rigid tine cultivator designed for precise seedbed preparation and stubble incorporation. Its robust build ensures reliable performance in diverse Indian soil conditions.",
+    "features": [
+      "Rigid high-strength steel tynes",
+      "Duck-foot shovels",
+      "Working depth up to 25 cm",
+      "Uniform soil crumbling",
+      "Compatible with 55-80 HP tractors",
+      "Optional levelling roller"
+    ]
+  },
+
+  {
+    "equipmentName": "Fieldking Pneumatic Seed Drill 9 Row",
+    "equipmentType": "Seed Drills",
+    "suitableCrops": ["Wheat", "Mustard", "Barley", "Gram", "Sunflower"],
+    "suitableProcesses": [
+      { "process": "Sowing", "duration": 3, "amount": 600 },
+      { "process": "Fertilizer Application", "duration": 3, "amount": 500 }
+    ],
+    "description": "Fieldking Pneumatic Seed Drill ensures accurate seed metering and precise placement at controlled depth. The 9-row configuration covers a wide area per pass, significantly reducing sowing time.",
+    "features": [
+      "9-row pneumatic metering",
+      "Adjustable seed rate",
+      "Fertilizer box with separate metering",
+      "Press wheels for seed-soil contact",
+      "Compatible with 45-65 HP tractors",
+      "Row spacing 15-25 cm adjustable"
+    ]
+  },
+  {
+    "equipmentName": "Razor Zero Till Seed cum Fertilizer Drill",
+    "equipmentType": "Seed Drills",
+    "suitableCrops": ["Wheat", "Paddy", "Oats", "Barley", "Rapeseed"],
+    "suitableProcesses": [
+      { "process": "Zero Till Sowing", "duration": 2, "amount": 550 },
+      { "process": "Fertilizer Band Placement", "duration": 2, "amount": 480 }
+    ],
+    "description": "Razor Zero Till Drill allows direct sowing into standing stubble without prior tillage. It conserves moisture, reduces input costs, and promotes sustainable farming. Ideal for post-paddy wheat sowing in Punjab and Haryana.",
+    "features": [
+      "Inverted T-type furrow openers",
+      "Separate seed and fertilizer boxes",
+      "Zero-till operation capability",
+      "Adjustable depth control wheels",
+      "Compatible with 35-55 HP tractors",
+      "11 rows, 22.5 cm row spacing"
+    ]
+  },
+  {
+    "equipmentName": "Maschio Gaspardo Moresma Seed Drill",
+    "equipmentType": "Seed Drills",
+    "suitableCrops": ["Maize", "Soybean", "Sunflower", "Cotton", "Groundnut"],
+    "suitableProcesses": [
+      { "process": "Precision Sowing", "duration": 2, "amount": 700 },
+      { "process": "Fertilizer Application", "duration": 2, "amount": 550 }
+    ],
+    "description": "Maschio Gaspardo Moresma is a precision seed drill for large-seed crops. It ensures uniform plant population and accurate inter-plant spacing, resulting in better crop establishment and yield.",
+    "features": [
+      "Precision finger pickup metering",
+      "4-6 row configurations",
+      "Depth control per row unit",
+      "Cast iron seed discs",
+      "Compatible with 50-75 HP tractors",
+      "Seed population 18,000-90,000 seeds/acre"
+    ]
+  },
+
+  {
+    "equipmentName": "Aspee AH-16 Boom Sprayer",
+    "equipmentType": "Sprayers",
+    "suitableCrops": ["Wheat", "Cotton", "Vegetables", "Sugarcane", "Paddy"],
+    "suitableProcesses": [
+      { "process": "Pesticide Spraying", "duration": 2, "amount": 350 },
+      { "process": "Herbicide Application", "duration": 2, "amount": 300 },
+      { "process": "Foliar Fertilization", "duration": 1, "amount": 250 }
+    ],
+    "description": "Aspee AH-16 Boom Sprayer is a tractor-mounted high-capacity sprayer with a 16-metre boom for wide area coverage. It is widely used for efficient pesticide and herbicide application across large fields.",
+    "features": [
+      "16-metre folding boom",
+      "600-litre tank capacity",
+      "Stainless steel centrifugal pump",
+      "Anti-drip nozzles",
+      "Pressure regulator 0-10 bar",
+      "Compatible with 35-60 HP tractors"
+    ]
+  },
+  {
+    "equipmentName": "Fuji FT-20L Knapsack Power Sprayer",
+    "equipmentType": "Sprayers",
+    "suitableCrops": ["Vegetables", "Fruits", "Rice", "Cotton", "Groundnut"],
+    "suitableProcesses": [
+      { "process": "Pesticide Spraying", "duration": 3, "amount": 200 },
+      { "process": "Fungicide Application", "duration": 2, "amount": 180 }
+    ],
+    "description": "Fuji FT-20L is a portable knapsack power sprayer ideal for small and marginal farmers. Its lightweight design and easy operation make it suitable for row crops, orchards, and vegetable gardens.",
+    "features": [
+      "20-litre tank capacity",
+      "Single-cylinder 2-stroke engine",
+      "Spray range up to 8 metres",
+      "Adjustable nozzle output",
+      "Anti-vibration handle",
+      "Weight: 8.5 kg (empty)"
+    ]
+  },
+  {
+    "equipmentName": "John Deere R4045 Self-Propelled Sprayer",
+    "equipmentType": "Sprayers",
+    "suitableCrops": ["Wheat", "Maize", "Soybean", "Cotton", "Sugarcane"],
+    "suitableProcesses": [
+      { "process": "Pesticide Spraying", "duration": 1, "amount": 1200 },
+      { "process": "Herbicide Application", "duration": 1, "amount": 1100 },
+      { "process": "Micronutrient Spraying", "duration": 1, "amount": 900 }
+    ],
+    "description": "John Deere R4045 is a self-propelled high-clearance sprayer for large-scale commercial farming. Equipped with GPS auto-steering and section control, it minimizes overlaps and chemical wastage.",
+    "features": [
+      "36-metre boom width",
+      "4500-litre tank capacity",
+      "GPS auto-steer system",
+      "Boom section control (7 sections)",
+      "High ground clearance 1.5 m",
+      "270 HP diesel engine"
+    ]
+  },
+
+  {
+    "equipmentName": "Claas Crop Tiger 30 Terra Mini Harvester",
+    "equipmentType": "Harvesters",
+    "suitableCrops": ["Paddy", "Wheat", "Soybean", "Oats", "Barley"],
+    "suitableProcesses": [
+      { "process": "Harvesting", "duration": 4, "amount": 1500 },
+      { "process": "Threshing", "duration": 3, "amount": 1200 }
+    ],
+    "description": "Claas Crop Tiger 30 Terra is a compact combine harvester designed for small to medium farms. It delivers efficient harvesting with minimal grain loss and is easy to maneuver in narrow fields.",
+    "features": [
+      "30 HP diesel engine",
+      "2.1 m cutting width",
+      "Axial threshing system",
+      "450 kg grain tank",
+      "Lightweight and compact design",
+      "Low grain loss technology"
+    ]
+  },
+  {
+    "equipmentName": "Mahindra ARJUN 605 Combine Harvester",
+    "equipmentType": "Harvesters",
+    "suitableCrops": ["Wheat", "Rice", "Maize", "Soybean", "Sunflower"],
+    "suitableProcesses": [
+      { "process": "Harvesting", "duration": 3, "amount": 2000 },
+      { "process": "Threshing", "duration": 2, "amount": 1500 },
+      { "process": "Winnowing", "duration": 1, "amount": 800 }
+    ],
+    "description": "Mahindra ARJUN 605 is a powerful self-propelled combine harvester suited for large-scale harvesting. It offers high throughput with minimal field losses and is serviceable across multiple crop types.",
+    "features": [
+      "100 HP engine",
+      "4.1 m cutting header",
+      "Tangential threshing drum",
+      "2500 kg grain tank",
+      "Straw chopper attachment",
+      "4WD drive for soft soils"
+    ]
+  },
+  {
+    "equipmentName": "Preet 987 Self-Propelled Combine",
+    "equipmentType": "Harvesters",
+    "suitableCrops": ["Wheat", "Paddy", "Mustard", "Gram", "Barley"],
+    "suitableProcesses": [
+      { "process": "Harvesting", "duration": 3, "amount": 1800 },
+      { "process": "Threshing", "duration": 2, "amount": 1400 }
+    ],
+    "description": "Preet 987 is a reliable self-propelled combine harvester popular in Punjab and Haryana. It is designed for high-speed harvesting of wheat and paddy with an efficient cleaning system to deliver clean grain.",
+    "features": [
+      "87 HP engine",
+      "3.7 m header width",
+      "Twin straw walker system",
+      "2200 kg grain tank",
+      "Paddy special drum available",
+      "Hydraulic reel speed adjustment"
+    ]
+  },
+
+  {
+    "equipmentName": "Fieldking Rotavator Heavy Duty 7 feet",
+    "equipmentType": "Rotavators",
+    "suitableCrops": ["Wheat", "Paddy", "Sugarcane", "Vegetables", "Pulses"],
+    "suitableProcesses": [
+      { "process": "Seedbed Preparation", "duration": 2, "amount": 450 },
+      { "process": "Residue Incorporation", "duration": 2, "amount": 400 },
+      { "process": "Weed Control", "duration": 1, "amount": 300 }
+    ],
+    "description": "Fieldking Heavy Duty Rotavator (7 ft) is a robust rotary tiller that pulverizes soil and incorporates crop residue in a single pass. It is widely used for paddy stubble management and seedbed preparation for wheat.",
+    "features": [
+      "7 feet working width",
+      "42 L-type blades",
+      "Gear-driven rotor",
+      "Side drive gearbox",
+      "Rear crumbler roller",
+      "Compatible with 55-75 HP tractors"
+    ]
+  },
+  {
+    "equipmentName": "Shaktiman Side Shift Rotavator 6 feet",
+    "equipmentType": "Rotavators",
+    "suitableCrops": ["Cotton", "Sugarcane", "Maize", "Vegetables", "Soybean"],
+    "suitableProcesses": [
+      { "process": "Inter-row Tillage", "duration": 2, "amount": 380 },
+      { "process": "Seedbed Preparation", "duration": 2, "amount": 430 }
+    ],
+    "description": "Shaktiman Side Shift Rotavator allows lateral offset of the rotor from the tractor centerline, making it ideal for inter-row cultivation in standing crops like sugarcane and cotton without damaging plants.",
+    "features": [
+      "6 feet working width",
+      "Lateral shift up to 45 cm",
+      "36 blades C-type",
+      "Centre chain drive",
+      "Adjustable working depth",
+      "Compatible with 45-65 HP tractors"
+    ]
+  },
+  {
+    "equipmentName": "Maschio Bisonte Rotavator 8 feet",
+    "equipmentType": "Rotavators",
+    "suitableCrops": ["Wheat", "Rice", "Barley", "Mustard", "Gram"],
+    "suitableProcesses": [
+      { "process": "Deep Rotavation", "duration": 3, "amount": 550 },
+      { "process": "Residue Incorporation", "duration": 2, "amount": 450 },
+      { "process": "Seedbed Preparation", "duration": 2, "amount": 480 }
+    ],
+    "description": "Maschio Bisonte is an 8-foot heavy-duty rotavator built for large farms. It delivers excellent soil pulverization even in hard conditions and features a robust gearbox for sustained heavy-duty operations.",
+    "features": [
+      "8 feet working width",
+      "48 premium blades",
+      "Heavy-duty gearbox",
+      "Flanged rotor bearing",
+      "Hydraulic depth control",
+      "Compatible with 65-90 HP tractors"
+    ]
+  },
+
+  {
+    "equipmentName": "Amar Multi-Crop Thresher AT-70",
+    "equipmentType": "Threshers",
+    "suitableCrops": ["Wheat", "Paddy", "Soybean", "Gram", "Maize"],
+    "suitableProcesses": [
+      { "process": "Threshing", "duration": 4, "amount": 600 },
+      { "process": "Winnowing", "duration": 2, "amount": 300 }
+    ],
+    "description": "Amar AT-70 is a versatile multi-crop thresher that separates grain from straw efficiently. It can thresh wheat, paddy, soybean, and gram with simple screen and drum adjustments, making it popular among small farmers.",
+    "features": [
+      "Throughput 700 kg/hour (wheat)",
+      "Multi-crop adjustable concave",
+      "PTO or electric motor operated",
+      "Cleaning fan with adjustable airflow",
+      "3 sieve sizes included",
+      "Portable trolley-mounted design"
+    ]
+  },
+  {
+    "equipmentName": "Goldi Paddy Thresher GP-150",
+    "equipmentType": "Threshers",
+    "suitableCrops": ["Paddy", "Rice", "Wheat", "Oats"],
+    "suitableProcesses": [
+      { "process": "Threshing", "duration": 3, "amount": 700 },
+      { "process": "Cleaning", "duration": 2, "amount": 350 }
+    ],
+    "description": "Goldi GP-150 is a dedicated paddy thresher with high threshing efficiency and minimal grain breakage. It is widely used in paddy-growing states like Punjab, West Bengal, and Andhra Pradesh.",
+    "features": [
+      "Throughput 1500 kg/hour",
+      "Axial flow threshing drum",
+      "Low grain damage design",
+      "Built-in blower for chaff removal",
+      "Tractor PTO operated",
+      "Concave clearance adjustable"
+    ]
+  },
+  {
+    "equipmentName": "Vishwakrushi VK Maize Sheller Thresher",
+    "equipmentType": "Threshers",
+    "suitableCrops": ["Maize", "Corn", "Sorghum"],
+    "suitableProcesses": [
+      { "process": "Shelling", "duration": 2, "amount": 500 },
+      { "process": "Cleaning", "duration": 1, "amount": 250 }
+    ],
+    "description": "Vishwakrushi VK Maize Sheller is specifically designed for separating maize kernels from cobs with high efficiency and minimal breakage. It suits both small farms and commercial maize processing units.",
+    "features": [
+      "Throughput 800 kg/hour",
+      "Rubber-padded shelling drum",
+      "Grain damage less than 0.5%",
+      "Electric motor or PTO operated",
+      "Cyclone type cleaning system",
+      "Easy cob discharge chute"
+    ]
+  }
+]

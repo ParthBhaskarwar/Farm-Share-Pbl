@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Shield, Calendar, EqualIcon } from 'lucide-react';
 import api from '../../api/axios';
 import { showError, showSuccess } from "./../../utils/toast";
@@ -13,21 +13,61 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
   const [selectedTimeSlot, setSelectedTimeSlot] = useState('');
   const [isTransportRequired, setIsTransportRequired] = useState(false);
   const [priceData, setPriceData] = useState(null);
+  const [bookedSlots, setBookedSlots] = useState([]);
+
+  // Fetch booked slots when date changes
+  useEffect(() => {
+    const fetchBookedSlots = async () => {
+      if (selectedDate && currentEquipmentId) {
+        try {
+          const res = await api.get(`/api/booking/booked-slots/${currentEquipmentId}?date=${selectedDate}`);
+          setBookedSlots(res.data.slots || []);
+        } catch (err) {
+          console.error("Failed to fetch booked slots:", err);
+        }
+      } else {
+        setBookedSlots([]);
+      }
+    };
+    fetchBookedSlots();
+  }, [selectedDate, currentEquipmentId]);
 
   // Calculate time slots based on duration
   const getTimeSlots = () => {
     const slots = [];
     const startHour = 8; // 8 AM
     const endHour = 17; // 5 PM
-    const durationHours = parseInt(duration);
+    const totalDuration = (equipment.includesOperator && isOperatorRequired && workType) 
+                    ? (workType.duration * (landSize || 1)) 
+                    : duration;
+    const durationHours = parseInt(totalDuration);
 
     for (let i = startHour; i <= endHour - durationHours; i++) {
-      const startTime = `${i}:00`;
-      const endTime = `${i + durationHours}:00`;
-      slots.push({
-        value: `${startTime}-${endTime}`,
-        label: `${startTime} - ${endTime}`
-      });
+      const startTime = `${i.toString().padStart(2, '0')}:00`;
+      const endTime = `${(i + durationHours).toString().padStart(2, '0')}:00`;
+
+      const startSlotEpoch = new Date(`${selectedDate}T${startTime}:00`).getTime();
+      const endSlotEpoch = new Date(`${selectedDate}T${endTime}:00`).getTime();
+
+      let isTaken = false;
+      for (const booked of bookedSlots) {
+        if (!booked.startTime || !booked.endTime) continue;
+        const bookedStart = new Date(booked.startTime).getTime();
+        const bookedEnd = new Date(booked.endTime).getTime();
+
+        // Time blocks overlap if StartA < EndB and EndA > StartB
+        if (startSlotEpoch < bookedEnd && endSlotEpoch > bookedStart) {
+          isTaken = true;
+          break;
+        }
+      }
+
+      if (!isTaken) {
+        slots.push({
+          value: `${startTime}-${endTime}`,
+          label: `${startTime} - ${endTime}`
+        });
+      }
     }
     return slots;
   };
@@ -48,9 +88,12 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
   // Handle Price Controller
   const handlePrice = async () => {
     try {
+      const totalDuration = (equipment.includesOperator && isOperatorRequired && workType) 
+                      ? (workType.duration * (landSize || 1)) 
+                      : duration;
       const res = await api.post(`/api/equipment/price/${currentEquipmentId}`, {
         distance,
-        duration,
+        duration: totalDuration,
         isOperatorRequired,
         process: workType?.process,
         landSize,
@@ -74,11 +117,14 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
           startDate: selectedDate,
           startTime,
           endTime,
-          duration: priceData.duration || duration,
+          duration: priceData.duration || ((equipment.includesOperator && isOperatorRequired && workType) 
+                    ? (workType.duration * (landSize || 1)) 
+                    : duration),
           isOperatorRequired,
           process: workType?.process,
           landSize,
-          isTransportRequired
+          isTransportRequired,
+          distance
         }
       );
 
@@ -101,7 +147,8 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
               bookingId: booking._id
             }
           );
-          showSuccess('Payment Successful')
+          showSuccess('Payment Successful');
+          // Fully Reset All Data
           setSelectedDate('');
           setDuration('');
           setIsOperatorRequired(false);
@@ -110,6 +157,7 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
           setSelectedTimeSlot('');
           setWorkType(null);
           setPriceData(null);
+          setBookedSlots([]);
         },
 
         theme: { color: "#3399cc" },
@@ -129,7 +177,7 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
         <div>
           <div className="flex items-baseline space-x-3 mb-2">
             <span className="text-4xl font-bold text-green-600">
-              ₹{priceData ? (priceData.basePrice / (priceData.duration || duration || 1)).toFixed(0) : equipment.dynamicPrice}
+              ₹{priceData ? Math.round(priceData.dynamicBase) : Math.round(equipment.dynamicBase)}
             </span>
             <span className="text-slate-600 text-lg">/ hr</span>
           </div>
@@ -170,6 +218,7 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
                     setLandSize('');
                     setDuration('');
                     setSelectedTimeSlot('');
+                    setPriceData(null);
                   }}
                   className="w-5 h-5 text-green-600 rounded focus:ring-2 focus:ring-green-500"
                 />
@@ -196,6 +245,7 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
                     setWorkType(selected || null);
                     setDuration(selected?.duration || '');
                     setSelectedTimeSlot('');
+                    setPriceData(null);
                   }}
                   className="w-full bg-white border border-slate-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"
                 >
@@ -223,6 +273,7 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
                   onChange={(e) => {
                     setLandSize(e.target.value);
                     setSelectedTimeSlot('');
+                    setPriceData(null);
                   }}
                   min="0.5"
                   step="0.5"
@@ -244,6 +295,7 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
                 onChange={(e) => {
                   setDuration(e.target.value);
                   setSelectedTimeSlot('');
+                  setPriceData(null);
                 }}
                 className="w-full bg-white border border-slate-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500"
               >
@@ -286,7 +338,10 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
                 <input
                   type="checkbox"
                   checked={isTransportRequired}
-                  onChange={(e) => setIsTransportRequired(e.target.checked)}
+                  onChange={(e) => {
+                    setIsTransportRequired(e.target.checked);
+                    setPriceData(null);
+                  }}
                   className="w-5 h-5 text-green-600 rounded focus:ring-2 focus:ring-green-500"
                 />
                 <span className="text-sm font-medium text-slate-700">Transport Required</span>
@@ -316,13 +371,13 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
 
             <div className="flex justify-between text-sm">
               <span className="text-slate-600">Base price</span>
-              <span className="font-semibold text-slate-800">₹{priceData.basePrice}</span>
+              <span className="font-semibold text-slate-800">₹{Math.round(priceData.basePrice)}</span>
             </div>
 
             {priceData.deliveryCharge > 0 && (
               <div className="flex justify-between text-sm">
                 <span className="text-slate-600">Delivery Charges</span>
-                <span className="font-semibold text-slate-800">₹{priceData.deliveryCharge}</span>
+                <span className="font-semibold text-slate-800">₹{Math.round(priceData.deliveryCharge)}</span>
               </div>
             )}
 
@@ -331,14 +386,14 @@ const PricingBookingCard = ({ equipment, currentEquipmentId, distance }) => {
                 <div className="flex items-center space-x-1">
                   <span className="text-slate-600">Operator Charges</span>
                 </div>
-                <span className="font-semibold text-slate-800">₹{priceData.operatorCharge}</span>
+                <span className="font-semibold text-slate-800">₹{Math.round(priceData.operatorCharge)}</span>
               </div>
             )}
 
             <div className="border-t border-slate-300 pt-2 mt-2">
               <div className="flex justify-between">
                 <span className="font-bold text-slate-800">Total</span>
-                <span className="font-bold text-green-600 text-xl">₹{priceData.dynamicPrice}</span>
+                <span className="font-bold text-green-600 text-xl">₹{Math.round(priceData.dynamicPrice)}</span>
               </div>
             </div>
           </div>

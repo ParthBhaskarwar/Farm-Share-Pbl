@@ -155,43 +155,48 @@ exports.resetPassword = async (req, res, next) => {
 }
 
 exports.startSignup = async (req, res, next) => {
-    const { email } = req.body;
+    try {
+        const { email } = req.body;
 
-    if (!email) {
-        return next(new AppError('Email is required', 400));
-    }
+        if (!email) {
+            return next(new AppError('Email is required', 400));
+        }
 
-    let farmer = await FarmerModel.findOne({ email });
+        let farmer = await FarmerModel.findOne({ email });
 
-    if (farmer) {
-        return next(new AppError('Email already registered', 400));
-    }
+        if (farmer) {
+            return next(new AppError('Email already registered', 400));
+        }
 
-    const otp = Math.floor(100000 + Math.random() * 900000).toString();
+        const otp = Math.floor(100000 + Math.random() * 900000).toString();
 
-    const otpHash = crypto
-        .createHash('sha256')
-        .update(otp)
-        .digest('hex');
+        const otpHash = crypto
+            .createHash('sha256')
+            .update(otp)
+            .digest('hex');
 
-    if (!farmer) {
-        farmer = await FarmerModel.create({
-            email,
-            registerOtp: otpHash,
-            registerOtpExpires: Date.now() + 10 * 60 * 1000
+        if (!farmer) {
+            farmer = await FarmerModel.create({
+                email,
+                registerOtp: otpHash,
+                registerOtpExpires: Date.now() + 10 * 60 * 1000
+            });
+        } else {
+            farmer.registerOtp = otpHash;
+            farmer.registerOtpExpires = Date.now() + 10 * 60 * 1000;
+            await farmer.save({ validateBeforeSave: false });
+        }
+
+        await sendVerifyEmail(email, otp);
+
+        res.status(200).json({
+            status: 'success',
+            message: 'Verification code sent'
         });
-    } else {
-        farmer.registerOtp = otpHash;
-        farmer.registerOtpExpires = Date.now() + 10 * 60 * 1000;
-        await farmer.save({ validateBeforeSave: false });
+    } catch (err) {
+        console.log(err);
+
     }
-
-    await sendVerifyEmail(email, otp);
-
-    res.status(200).json({
-        status: 'success',
-        message: 'Verification code sent'
-    });
 };
 
 exports.verifyEmail = async (req, res, next) => {
@@ -294,7 +299,7 @@ exports.completeSignup = async (req, res, next) => {
     sendToken(farmer, 201, res);
 };
 
-exports.googleLogin = async (req, res,next) => {
+exports.googleLogin = async (req, res, next) => {
     try {
         const { token } = req.body;
 
@@ -310,7 +315,7 @@ exports.googleLogin = async (req, res,next) => {
         let farmer = await FarmerModel.findOne({ email: email });
 
         if (!farmer) {
-            return next(new AppError('This email is not registered. Complete signup',404))
+            return next(new AppError('This email is not registered. Complete signup', 404))
         }
 
         await sendToken(farmer, 200, res);

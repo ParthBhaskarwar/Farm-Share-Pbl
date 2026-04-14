@@ -118,7 +118,6 @@ const bookingSchema = new mongoose.Schema({
     process:String,
     landSize:Number
   }
-}
-);
+}, { timestamps: true });
 
 module.exports = mongoose.model("Booking", bookingSchema);

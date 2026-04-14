@@ -145,6 +145,35 @@ exports.getEquipmentById = async (req, res) => {
          });
       }
 
+      // Calculate Real-time Dynamic Price
+      const health = await HealthScore.findOne({ equipmentId: id });
+      const totalUnitsOfThisEquipment = await FarmerEquipmentModel.countDocuments({
+         equipment: equipment.equipment._id
+      });
+      const activeBookingsForThisEquipment = await BookingModel.countDocuments({
+         equipment: id,
+         bookingStatus: { $ne: 'cancelled' }
+      });
+
+      const { dynamicPrice, dynamicBase } = calculatePrice({
+         baseHourlyRate: equipment.pricePerHour,
+         healthScore: health?.totalScore || 80,
+         purchaseYear: equipment.specs.year,
+         activeBookingsForThisEquipment,
+         totalUnitsOfThisEquipment,
+         distanceKm: 0, 
+         duration: 1,
+         hasOperator: equipment.includesOperator,
+         hasTransport: false,
+         isOperatorRequired: false,
+         isTransportRequired: false,
+         workAmount: 0,
+         landSize: 0
+      });
+
+      equipment.dynamicPrice = dynamicPrice;
+      equipment.dynamicBase = dynamicBase;
+
       res.status(200).json({
          status: "success",
          equipment
@@ -354,7 +383,40 @@ exports.getEquipment = async (req, res, next) => {
       }
 
       // ✅ STEP 10: Execute Pipeline
-      const equipment = await FarmerEquipmentModel.aggregate(pipeline);
+      let equipment = await FarmerEquipmentModel.aggregate(pipeline);
+
+      // ✅ STEP 11: Calculate Real-time Dynamic Prices
+      equipment = await Promise.all(equipment.map(async (item) => {
+         const health = await HealthScore.findOne({ equipmentId: item._id });
+         
+         // Using the logic defined in your priceController.js but for generic discovery
+         const totalUnitsOfThisEquipment = await FarmerEquipmentModel.countDocuments({
+            equipment: item.equipment // This is the ID of the EquipmentCatalog entry
+         });
+
+         const activeBookingsForThisEquipment = await BookingModel.countDocuments({
+            equipment: item._id,
+            bookingStatus: { $ne: 'cancelled' }
+         });
+
+         const { dynamicPrice, dynamicBase } = calculatePrice({
+            baseHourlyRate: item.pricePerHour,
+            healthScore: health?.totalScore || 80,
+            purchaseYear: item.specs.year,
+            activeBookingsForThisEquipment,
+            totalUnitsOfThisEquipment,
+            distanceKm: item.distance || 0,
+            duration: 1, // Default base duration for search listing
+            hasOperator: item.includesOperator,
+            hasTransport: false, // Default context for search listing
+            isOperatorRequired: false,
+            isTransportRequired: false,
+            workAmount: 0,
+            landSize: 0
+         });
+
+         return { ...item, dynamicPrice, dynamicBase };
+      }));
 
       res.status(200).json({
          status: 'success',

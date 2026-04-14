@@ -29,8 +29,8 @@ module.exports = function calculatePrice({
     let availabilityRatio =
         activeBookingsForThisEquipment /
         totalUnitsOfThisEquipment
-    if (availabilityRatio >= 0.8) { demandMultiplier = 1.25; } 
-    else if (availabilityRatio >= 0.5) { demandMultiplier = 1.1; }   
+    if (availabilityRatio >= 0.8) { demandMultiplier = 1.25; }
+    else if (availabilityRatio >= 0.5) { demandMultiplier = 1.1; }
     else { demandMultiplier = 1.0; }
 
     const dynamicBase =
@@ -40,21 +40,21 @@ module.exports = function calculatePrice({
         demandMultiplier;
 
     let deliveryCharge = 0;
-    deliveryCharge=hasTransport && isTransportRequired ? Math.round(distanceKm * 20) : 0;
+    deliveryCharge = hasTransport && isTransportRequired ? Math.round(distanceKm * 20) : 0;
 
-    let operatorCharge=0;
+    let operatorCharge = 0;
     operatorCharge = hasOperator && isOperatorRequired ? workAmount * landSize : 0;
-    
-    const basePrice= Math.round(dynamicBase * duration);
 
-    const platformCharge=basePrice * 0.4;
+    const basePrice = Math.round(dynamicBase * duration);
 
-    const dynamicPrice=Math.round(
-        basePrice+
+    const platformCharge = basePrice * 0.05;
+
+    const dynamicPrice = Math.round(
+        basePrice +
         deliveryCharge +
-        operatorCharge  +
+        operatorCharge +
         platformCharge
     );
 
-    return {basePrice,deliveryCharge,operatorCharge,dynamicPrice,platformCharge};
+    return { basePrice, deliveryCharge, operatorCharge, dynamicPrice, platformCharge, dynamicBase };
 };

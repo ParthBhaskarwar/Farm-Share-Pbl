@@ -179,11 +179,18 @@ router.get('/todaysJobs', AuthController.protect, async (req, res) => {
     
     const equipmentIds = myEquipment.map(eq => eq._id);
 
-    // Find all bookings for my equipment today
+    // Find all bookings for my equipment that are relevant today
     const jobs = await BookingModel.find({
       equipment: { $in: equipmentIds },
-      startDate: { $gte: today, $lt: tomorrow },
-      bookingStatus: { $in: ['confirmed', 'active'] }
+      $or: [
+        { startDate: { $gte: today, $lt: tomorrow } }, // Scheduled for today
+        { bookingStatus: 'active' },                   // Currently in progress
+        { 
+          bookingStatus: 'completed', 
+          updatedAt: { $gte: today, $lt: tomorrow }    // Finished today
+        }
+      ],
+      bookingStatus: { $in: ['confirmed', 'active', 'completed'] }
     })
     .populate('farmer', 'name phone_number village location')
     .populate({
@@ -203,6 +210,7 @@ router.get('/todaysJobs', AuthController.protect, async (req, res) => {
       equipmentName: job.equipment?.equipment?.equipmentName,
       startTime: job.timeSlot?.startTime,
       endTime: job.timeSlot?.endTime,
+      status: job.bookingStatus,
       location: {
         lat: job.farmer?.location?.coordinates?.[1],
         lng: job.farmer?.location?.coordinates?.[0]
@@ -239,11 +247,18 @@ router.get('/myRentedLocations', AuthController.protect, async (req, res) => {
     const tomorrow = new Date(today);
     tomorrow.setDate(tomorrow.getDate() + 1);
 
-    // Find all bookings where I'm the renter and booking is today
+    // Find all bookings where I'm the renter that are relevant today
     const rentals = await BookingModel.find({
       farmer: farmerId,
-      startDate: { $gte: today, $lt: tomorrow },
-      bookingStatus: { $in: ['confirmed', 'active'] }
+      $or: [
+        { startDate: { $gte: today, $lt: tomorrow } }, // Scheduled for today
+        { bookingStatus: 'active' },                   // Currently in progress
+        { 
+          bookingStatus: 'completed', 
+          updatedAt: { $gte: today, $lt: tomorrow }    // Finished today
+        }
+      ],
+      bookingStatus: { $in: ['confirmed', 'active', 'completed'] }
     })
     .populate({
       path: 'equipment',
@@ -268,6 +283,7 @@ router.get('/myRentedLocations', AuthController.protect, async (req, res) => {
       equipmentName: rental.equipment?.equipment?.equipmentName,
       startTime: rental.timeSlot?.startTime,
       endTime: rental.timeSlot?.endTime,
+      status: rental.bookingStatus,
       location: {
         lat: rental.equipment?.location?.coordinates?.[1],
         lng: rental.equipment?.location?.coordinates?.[0]

@@ -30,7 +30,7 @@ exports.showPrice = async (req, res, next) => {
   const hasOperator = equipment.includesOperator;
   const hasTransport=equipment.includesTransport;
   let workAmount=0;
-  let landSize= 0;
+  let landSize= req.body.landSize || 0;
   let duration=req.body.duration;
 
   if (hasOperator && isOperatorRequired) {
@@ -40,12 +40,21 @@ exports.showPrice = async (req, res, next) => {
       p => p.process === req.body.process
     );
 
-    workAmount = selectedProcess.amount;
-    duration=selectedProcess.duration;
-    landSize=req.body.landSize;
+    if (selectedProcess) {
+      workAmount = selectedProcess.amount;
+      duration = selectedProcess.duration * (landSize || 1);
+    }
   }
 
-  const { basePrice, deliveryCharge, operatorCharge, dynamicPrice ,platformCharge} = calculatePrice({
+  // Enforce 9-hour limit (8 AM - 5 PM window)
+  if (duration > 9) {
+    return res.status(400).json({
+      status: "fail",
+      message: "Booking cannot be performed. Job exceeds daily 9-hour window (8 AM - 5 PM). Please reduce land size."
+    });
+  }
+
+  const { basePrice, deliveryCharge, operatorCharge, dynamicPrice ,platformCharge, dynamicBase} = calculatePrice({
     baseHourlyRate,
     healthScore,
     purchaseYear,
@@ -63,6 +72,6 @@ exports.showPrice = async (req, res, next) => {
 
   res.status(200).json({
     status: 'success',
-    basePrice, deliveryCharge, operatorCharge, dynamicPrice,platformCharge
+    basePrice, deliveryCharge, operatorCharge, dynamicPrice, platformCharge, duration, dynamicBase
   });
 }

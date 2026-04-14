@@ -123,8 +123,8 @@ const EnhancedEquipmentCard = ({ equipment = {} ,id }) => {
         {/* Dynamic Pricing */}
         <div className="space-y-2">
           <div className="flex items-baseline space-x-2">
-            <span className="text-3xl font-bold text-green-600">₹{equipment.dynamicPrice || equipment.pricePerDay}</span>
-            <span className="text-slate-600">/day</span>
+            <span className="text-3xl font-bold text-green-600">₹{Math.round(equipment.dynamicBase)}</span>
+            <span className="text-slate-600">/hr</span>
           </div>
           <button 
             className="w-full bg-gradient-to-r from-green-600 to-emerald-500 text-white px-5 py-2 rounded-xl hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2"

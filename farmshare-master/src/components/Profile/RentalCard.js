@@ -121,7 +121,12 @@ const RentalCard = ({ rental }) => {
                 <Calendar className="w-4 h-4 text-blue-600" />
                 <span className="text-xs text-slate-600 font-medium">Start Date</span>
               </div>
-              <p className="text-sm font-bold text-blue-600">{rental.startDate}</p>
+              <p className="text-sm font-bold text-blue-600">
+                {new Date(rental.timeSlot.startTime).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+              </p>
+              <p className="text-xs font-semibold text-blue-500 mt-1">
+                {new Date(rental.timeSlot.startTime).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', hour12: false })}
+              </p>
             </div>
 
             <div className="bg-purple-50 rounded-xl p-3 border border-purple-200">
@@ -129,14 +134,19 @@ const RentalCard = ({ rental }) => {
                 <Calendar className="w-4 h-4 text-purple-600" />
                 <span className="text-xs text-slate-600 font-medium">End Date</span>
               </div>
-              <p className="text-sm font-bold text-purple-600">{rental.endDate}</p>
+              <p className="text-sm font-bold text-purple-600">
+                {new Date(rental.timeSlot.endTime).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+              </p>
+              <p className="text-xs font-semibold text-purple-500 mt-1">
+                {new Date(rental.timeSlot.endTime).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', hour12: false })}
+              </p>
             </div>
           </div>
 
           {/* Price */}
           <div className="flex items-center justify-between pt-3 border-t border-slate-200">
             <span className="text-slate-600">Total Amount</span>
-            <span className="text-2xl font-bold text-green-600">₹{rental.totalAmount}</span>
+            <span className="text-2xl font-bold text-green-600">₹{Math.round(rental.totalAmount)}</span>
           </div>
 
           {/* Action Buttons */}

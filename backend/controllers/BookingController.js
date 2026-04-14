@@ -24,6 +24,40 @@ async function getTotalBookings(equipmentId) {
     });
 };
 
+exports.getBookedSlots = async (req, res, next) => {
+    try {
+        const { date } = req.query; // format 'YYYY-MM-DD'
+        const equipmentId = req.params.id;
+
+        if (!date || !equipmentId) {
+            return res.status(400).json({ message: "Date and equipment ID are required" });
+        }
+
+        const startOfDay = new Date(`${date}T00:00:00`);
+        const endOfDay = new Date(`${date}T23:59:59`);
+        const fifteenMinutesAgo = new Date(Date.now() - 15 * 60 * 1000);
+
+        const bookings = await Booking.find({
+            equipment: equipmentId,
+            $or: [
+                { bookingStatus: { $in: ["confirmed", "active", "completed"] } },
+                { 
+                    bookingStatus: "pending", 
+                    createdAt: { $gt: fifteenMinutesAgo } 
+                }
+            ],
+            "timeSlot.startTime": { $gte: startOfDay, $lte: endOfDay }
+        }).select("timeSlot");
+
+        res.status(200).json({
+            status: "success",
+            slots: bookings.map(b => b.timeSlot)
+        });
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+};
+
 
 exports.createBooking = async (req, res, next) => {
     const { startDate, startTime, endTime, duration, amount, isOperatorRequired, isTransportRequired } = req.body;
@@ -65,9 +99,21 @@ exports.createBooking = async (req, res, next) => {
         const baseCatalog = await EquipmentCatalogModel.findById(equipment.equipment);
 
         let workAmount = 0;
+        let calculatedDuration = duration;
+        
         if (isOperatorRequired && process) {
             const selectedProcess = baseCatalog.suitableProcesses.find(p => p.process === process);
-            if (selectedProcess) workAmount = selectedProcess.amount;
+            if (selectedProcess) {
+                workAmount = selectedProcess.amount;
+                calculatedDuration = selectedProcess.duration * (landSize || 1);
+            }
+        }
+
+        if (calculatedDuration > 9) {
+            return res.status(400).json({
+                status: "fail",
+                message: "Booking cannot be performed. Job exceeds daily 9-hour window (8 AM - 5 PM). Please reduce land size."
+            });
         }
 
         const calculated = calculatePrice({
@@ -77,7 +123,7 @@ exports.createBooking = async (req, res, next) => {
             activeBookingsForThisEquipment: activeBookings,
             totalUnitsOfThisEquipment: totalUnits,
             distanceKm: req.body.distance || 0,
-            duration: duration,
+            duration: calculatedDuration,
             hasOperator: equipment.includesOperator,
             hasTransport: equipment.includesTransport,
             isOperatorRequired,
@@ -86,11 +132,12 @@ exports.createBooking = async (req, res, next) => {
             landSize: landSize || 0
         });
 
-        // Verify frontend amount matches backend calculation (allow small rounding difference)
-        if (Math.round(calculated.dynamicPrice) !== Math.round(amount)) {
+        // Verify frontend amount matches backend calculation (allow small rounding tolerance)
+        const priceDifference = Math.abs(Math.round(calculated.dynamicPrice) - Math.round(amount));
+        if (priceDifference > 5) { // Allow up to 5 rupees difference for rounding/demand drift
             return res.status(400).json({
                 status: "fail",
-                message: "Price mismatch. Please refresh the page and try again."
+                message: "Price has updated. Please refresh the price breakdown and try again."
             });
         }
         // --- END PRICE SECURITY ---

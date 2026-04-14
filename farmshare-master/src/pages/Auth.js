@@ -434,9 +434,6 @@ const Auth = ({ setIsAuthenticated }) => {
                   />
                   
                 </div>
-                <button type="button" className="w-full py-3 px-4 border-2 border-slate-200 rounded-xl font-medium text-slate-700 hover:bg-slate-50 transition-colors flex items-center justify-center space-x-2">
-                  <span>📱</span><span>Phone</span>
-                </button>
               </div>
             </form>
           )}

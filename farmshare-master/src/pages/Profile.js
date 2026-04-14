@@ -443,7 +443,7 @@ const Profile = () => {
                       <h2 className="text-2xl font-bold text-slate-800">Current Rentals</h2>
                       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                        {myRentals?.filter(r => r.bookingStatus === 'active')?.length == 0 ?
+                        {myRentals?.filter(r => ['active', 'confirmed'].includes(r.bookingStatus))?.length == 0 ?
                           <div className=" col-span-full bg-white/70 backdrop-blur-xl rounded-2xl border border-white/40 p-6">
                             <div className="text-center py-12">
                               <CircleAlert className="w-16 h-16 text-slate-300 mx-auto mb-4" />
@@ -451,7 +451,7 @@ const Profile = () => {
                             </div>
                           </div>
                           :
-                          myRentals?.filter(r => r.bookingStatus === 'active')?.map(rental => (
+                          myRentals?.filter(r => ['active', 'confirmed'].includes(r.bookingStatus))?.map(rental => (
                             <RentalCard key={rental._id} rental={rental} />
                           ))}
                       </div>

@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Farmshare Frontend 🚜
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The user-facing React application for the Farmshare Platform. It provides a modern, responsive interface for farmers to list, find, and book agriculture equipment.
 
-## Available Scripts
+## ✨ Features
+- **Intuitive Dashboard**: Personal overview of listings, bookings, and trust metrics.
+- **Advanced Search**: Filter equipment by type, location, and availability.
+- **Interactive Maps**: Visualize equipment locations and calculate routes using Leaflet.js.
+- **Booking Flow**: Streamlined calendar-based booking with instant payment integration.
+- **Crop Calendar**: Seasonal guidance and agricultural insights.
+- **Support Chatbot**: Integrated AI assistant for user queries.
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
+- **Framework**: React.js (v19)
+- **Styling**: Tailwind CSS
+- **State Management**: React Context / Hooks
+- **Data Visualization**: Recharts
+- **Mapping**: Leaflet / React-Leaflet
+- **Authentication**: Google OAuth 2.0 via `@react-oauth/google`
 
-### `npm start`
+## 🚀 Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Installation
+```bash
+npm install
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Environment Setup
+Create a `.env` file in this directory with the following variables (see `.env.example`):
+```env
+REACT_APP_API_URL=http://localhost:8000
+REACT_APP_GOOGLE_CLIENT_ID=your_google_id
+```
 
-### `npm test`
+### 3. Running Locally
+```bash
+npm start
+```
+The app will run at [http://localhost:3000](http://localhost:3000).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Key Components
+- `pages/Landing.js`: The main welcome page.
+- `pages/SearchEquipment.js`: Equipment discovery with maps.
+- `components/Profile/TrustScore.js`: Visualization of farmer reliability.
+- `components/EquipmentDetails/PricingBookingCard.js`: Handles the rental transaction logic.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎨 UI Design
+Farmshare uses a custom green-centric palette to reflect the agricultural theme, utilizing Tailwind CSS for a modern, mobile-responsive experience.

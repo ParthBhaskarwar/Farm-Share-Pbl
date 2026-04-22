@@ -1,5 +1,5 @@
 const dotenv = require('dotenv');
-dotenv.config({ path: './config.env' });
+dotenv.config();
 
 const express = require('express');
 const mongoose = require('mongoose');
@@ -10,11 +10,11 @@ const cron = require('node-cron');
 
 const globalErrorHandler = require('./controllers/ErrorController');
 const EquipmentController = require('./controllers/EquipmentController');
-const AdminRouter=require('./routes/adminRoutes');
-const AuthRouter=require('./routes/authRoutes');
-const FarmerRouter=require('./routes/farmerRoutes');
-const EquipmentRouter=require('./routes/equipmentRoutes');
-const BookingRouter=require('./routes/bookingRoutes');
+const AdminRouter = require('./routes/adminRoutes');
+const AuthRouter = require('./routes/authRoutes');
+const FarmerRouter = require('./routes/farmerRoutes');
+const EquipmentRouter = require('./routes/equipmentRoutes');
+const BookingRouter = require('./routes/bookingRoutes');
 const FarmerEquipmentModel = require('./models/FarmerEquipmentModel');
 
 const app = express();
@@ -68,11 +68,11 @@ app.post("/distance", async (req, res) => {
   }
 });
 
-app.use("/api/admin",AdminRouter);
-app.use("/api/auth",AuthRouter);
+app.use("/api/admin", AdminRouter);
+app.use("/api/auth", AuthRouter);
 app.use("/api/booking", BookingRouter);
 app.use("/api/equipment", EquipmentRouter);
-app.use("/api/farmer",FarmerRouter);
+app.use("/api/farmer", FarmerRouter);
 
 
 app.use(globalErrorHandler);

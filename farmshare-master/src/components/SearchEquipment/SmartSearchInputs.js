@@ -141,18 +141,19 @@ const SmartSearchInputs = ({
             <label className="block text-sm font-semibold text-slate-700 mb-2">
               🚜 Equipment <span className="text-slate-400 font-normal">(Optional)</span>
             </label>
-            <select
+            <input
               type="text"
+              list="equipment-types"
               value={equipment}
               onChange={(e) => setEquipment(e.target.value)}
-              placeholder="Search by name..."
+              placeholder="Search by name or type..."
               className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-            >
-              <option value="">Select equipment</option>
+            />
+            <datalist id="equipment-types">
               {types.map(t => (
-                <option key={t} value={t}>{t}</option>
+                <option key={t} value={t} />
               ))}
-            </select>
+            </datalist>
           </div>
         </div>
 

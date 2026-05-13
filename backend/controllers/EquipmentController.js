@@ -248,14 +248,24 @@ exports.getEquipment = async (req, res, next) => {
          $unwind: '$equipmentDetails'
       });
 
-      // ✅ STEP 3: Filter by Equipment Type (from catalog)
+      // ✅ STEP 3: Filter by Equipment Type or Name (from catalog)
       if (equipmentType) {
          pipeline.push({
             $match: {
-               'equipmentDetails.equipmentType': {
-                  $regex: `^${equipmentType}$`,
-                  $options: 'i'
-               }
+               $or: [
+                  {
+                     'equipmentDetails.equipmentType': {
+                        $regex: equipmentType,
+                        $options: 'i'
+                     }
+                  },
+                  {
+                     'equipmentDetails.equipmentName': {
+                        $regex: equipmentType,
+                        $options: 'i'
+                     }
+                  }
+               ]
             }
          });
       }
@@ -264,7 +274,8 @@ exports.getEquipment = async (req, res, next) => {
          pipeline.push({
             $match: {
                'equipmentDetails.suitableCrops': {
-                  $elemMatch: { $regex: `^${crop}$`, $options: 'i' }
+                  $regex: `^${crop}$`,
+                  $options: 'i'
                }
             }
          });
